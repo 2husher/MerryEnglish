@@ -1,10 +1,9 @@
-%ul
-  %li= link_to 'Dictionary', dictionary_all_path
-  %li= link_to 'Lessons', lessons_all_path
+%header.navbar.navbar-fixed-top.navbar-inverse
+  .navbar-inner
+    .container
+      %logo
 
-- if params[:controller] == 'dictionary'
-  %h1 Dictionary
-  = render 'shared/letters'
-- elsif params[:controller] == 'lessons'
-  %h1 Lessons
-  = render 'shared/lessons'
+      %nav
+        %ul.nav.pull-right
+          %li= link_to 'Dictionary', dictionary_all_path
+          %li= link_to 'Lessons', lessons_all_path
