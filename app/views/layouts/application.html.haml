@@ -6,6 +6,14 @@
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
     = csrf_meta_tags
   %body
-    = render 'shared/header'
-    = yield
-    = render 'shared/footer'
+    %header.navbar.navbar-fixed-top.navbar-inverse
+      .navbar-inner
+        .container
+          = render 'shared/header'
+    .container
+      = yield
+      = render 'shared/footer'
+    %footer
+      .container
+        %small
+          2015 by Alex Izotov

@@ -268,7 +268,7 @@ Begin Lesson 18
 
 End Lesson 18
 ############################################################
-Begin Lesson 20
+Begin Lesson 19
 
 широкий [ADJ] broad [] The river is very long and broad.
 куст [N] bush [] My dad and I planted some small bushes around the house.
@@ -281,9 +281,9 @@ Begin Lesson 20
 передавать [V] convey [конвЭй] That picture of a crying child conveys a feeling of sadness.
 определенный [ADJ] definite [] There is a definite connection between hard work and success.
 
-End Lesson 20
+End Lesson 19
 ############################################################
-Begin Lesson 21
+Begin Lesson 20
 
 восторг [N] delight [] He felt such delight after getting a promotion at work.
 пункт назначения [N] destination [] The destination of this plane is Munich, Germany.
@@ -296,9 +296,9 @@ Begin Lesson 21
 подозревать [V] suspect [] I suspect that those kids stole the money.
 долина [N] valley [вЭли] We looked at the valley below from the top of the mountain.
 
-End Lesson 21
+End Lesson 20
 ############################################################
-Begin Lesson 22
+Begin Lesson 21
 
 восхищаться [V] admire [] I admire my brother for his hard work.
 помогать [V] aid [] The doctor aided the boy after his accident.
@@ -311,9 +311,9 @@ Begin Lesson 22
 беспорядок [N] disorder [дисОдэ] The teacher’s desk had many papers in disorder.
 деление [N] division [] The chart had six divisions which all had different colors.
 
-End Lesson 22
+End Lesson 21
 ############################################################
-Begin Lesson 23
+Begin Lesson 22
 
 давать возможность [V] enable [] Having the key enabled us to open the door.
 разочаровывать [V] frustrate [] The machine frustrated me because I could not fix it.
@@ -326,9 +326,9 @@ Begin Lesson 23
 бороться [V] struggle [] The kids struggled with each other for the toy.
 глупый [ADJ] stupid [] He said something stupid that made everyone angry at him.
 
-End Lesson 23
+End Lesson 22
 ############################################################
-Begin Lesson 24
+Begin Lesson 23
 
 гражданин [N] citizen [] Carlos was born in Spain. He is a Spanish citizen.
 Совет [N] council [кАунсэл] The council met to discuss the new laws for the city.
@@ -341,9 +341,9 @@ Begin Lesson 24
 впечатление [N] impression [] Most people’s first impression of Dr. Giani is that he is mean.
 доход [N] income [] Her company pays her a fairly good income.
 
-End Lesson 24
+End Lesson 23
 ############################################################
-Begin Lesson 25
+Begin Lesson 24
 
 сумасшедший [ADJ] mad [] Mother got mad when I didn’t listen to her.
 должен [V] ought [] I ought to take my library books back.
@@ -356,5 +356,5 @@ Begin Lesson 25
 суд [N] trial [] He went on trial for robbing the bank.
 жестокий [ADJ] violent [] The man was put into jail because he was violent.
 
-End Lesson 25
+End Lesson 24
 ############################################################
