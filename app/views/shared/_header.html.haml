@@ -1,0 +1,10 @@
+%ul
+  %li= link_to 'Dictionary', dictionary_all_path
+  %li= link_to 'Lessons', lessons_all_path
+
+- if params[:controller] == 'dictionary'
+  %h1 Dictionary
+  = render 'shared/letters'
+- elsif params[:controller] == 'lessons'
+  %h1 Lessons
+  = render 'shared/lessons'

@@ -3,6 +3,10 @@ Rails.application.routes.draw do
 
   get 'dictionary/:letter' => 'dictionary#letter', as: :dictionary
 
+  get 'lessons/all' => 'lessons#all', as: :lessons_all
+
+  get 'lessons/:number' => 'lessons#number', as: :lesson
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
