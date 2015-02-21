@@ -1,28 +1,21 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This MerryEnglish site is dedicated for learning English vocabulary.
 
-Things you may want to cover:
+Each word entity consisted of:
 
-* Ruby version
+* word
 
-* System dependencies
+* part of speech
 
-* Configuration
+* translation
 
-* Database creation
+* sentence with example usage
 
-* Database initialization
+It includes:
 
-* How to run the test suite
+* Dictionary: all words and words separated by letters
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+* Lessons: overview words in lessons and 10 words for each lesson
 
 * ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
