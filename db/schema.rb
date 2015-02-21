@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150220152015) do
+ActiveRecord::Schema.define(version: 20150221155153) do
 
   create_table "dictionaries", force: :cascade do |t|
     t.datetime "created_at", null: false
@@ -22,17 +22,26 @@ ActiveRecord::Schema.define(version: 20150220152015) do
     t.string   "word"
     t.string   "translation"
     t.text     "sentence"
-    t.integer  "dictionary_id"
     t.integer  "lesson_id"
     t.datetime "created_at",        null: false
     t.datetime "updated_at",        null: false
     t.integer  "part_of_speech_id"
+    t.integer  "letter_id"
   end
 
   create_table "lessons", force: :cascade do |t|
     t.integer  "number"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  add_index "lessons", ["number"], name: "index_lessons_on_number"
+
+  create_table "letters", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+    t.integer  "dictionary_id"
   end
 
   create_table "part_of_speeches", force: :cascade do |t|

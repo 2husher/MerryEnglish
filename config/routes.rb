@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'dictionary/all' => 'dictionary#index', as: :dictionary_all
+
+  get 'dictionary/:letter' => 'dictionary#letter', as: :dictionary
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

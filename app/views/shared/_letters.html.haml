@@ -1,0 +1,4 @@
+= link_to 'All', dictionary_all_path
+- Letter.all.each do |l|
+  = link_to l.name, dictionary_path(l.name)
+%br

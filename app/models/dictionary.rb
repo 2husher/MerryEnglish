@@ -8,5 +8,6 @@
 #
 
 class Dictionary < ActiveRecord::Base
-  has_many :entities
+  has_many :letters
+  has_many :entities, through: :letters
 end
