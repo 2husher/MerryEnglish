@@ -1,6 +1,6 @@
 class LessonsController < ApplicationController
   def all
-    @lessons = Lesson.all
+    @lessons = Lesson.includes(:entities).all
   end
 
   def number

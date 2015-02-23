@@ -1,0 +1,10 @@
+- if params[:controller] == 'lessons'
+  %b Lessons:
+  - Lesson.all.each do |l|
+    = link_to l.number, lesson_path(l.number)
+- elsif params[:controller] == 'translate_me_game'
+  %b Games:
+  - Lesson.all.each do |l|
+    = link_to l.number, translate_me_path(l.number)
+%br
+%br

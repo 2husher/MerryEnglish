@@ -8,12 +8,14 @@
   %body
     = render 'shared/header'
     .container
-      = render 'shared/sidebar'
+      = render 'shared/top_bar'
       %hr
       = yield
-      = render 'shared/footer'
+      = render 'shared/bottom_bar'
     %hr
     %footer
       .container
-        %small
-          2015 by Alex Izotov
+        %center
+          %i 2015 by Alex Izotov
+          %br
+          %br

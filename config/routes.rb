@@ -3,9 +3,16 @@ Rails.application.routes.draw do
 
   get 'dictionary/:letter' => 'dictionary#letter', as: :dictionary
 
+  get 'part_of_speech/:part_of_speech' => 'dictionary#part_of_speech', as: :part_of_speech
+
   get 'lessons/all' => 'lessons#all', as: :lessons_all
 
   get 'lessons/:number' => 'lessons#number', as: :lesson
+
+  get 'translate_me/all' => 'translate_me_game#all', as: :translate_me_all
+
+  get 'translate_me/:lesson_number' => 'translate_me_game#translate', as: :translate_me
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

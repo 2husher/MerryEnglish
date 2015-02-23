@@ -1,3 +1,6 @@
-%h3 Lesson #{@lesson.number}
+%h3
+  Lesson #{@lesson.number}
+  <#{link_to 'Translate Me Game', translate_me_path(@lesson.number)}>
 %hr
+
 = render @entities

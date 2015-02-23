@@ -1,0 +1,22 @@
+%h3
+  = link_to "Game", translate_me_path(@lesson.number)
+  for
+  = link_to "Lesson #{@lesson.number}", lesson_path(@lesson.number)
+
+%hr
+
+- @entities_array.each do |e|
+  %b= e[0]
+  %br
+  %span.translation{style: 'display: none;'}
+    = e[1]
+    %br
+  %span.sentence{style: 'display: none;'}
+    %i= e[2]
+    %br
+  %hr
+
+%button{id: 'translate_me', type:"button", class:"btn btn-danger"} Translate!
+%button{id: 'show_sentence', type:"button", class:"btn btn-success"} Sentence
+%br
+%br

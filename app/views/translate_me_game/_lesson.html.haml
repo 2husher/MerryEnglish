@@ -1,5 +1,6 @@
+= link_to 'Translate Me Game', translate_me_path(lesson.number)
+for
 = link_to "Lesson #{lesson.number}", lesson_path(lesson.number)
-<#{link_to 'Translate Me Game', translate_me_path(lesson.number)}>
 %br
 - lesson.entities.each do |e|
   %i= e.word

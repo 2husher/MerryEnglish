@@ -3,5 +3,7 @@
   = render 'shared/letters'
 - elsif params[:controller] == 'lessons'
   %h1 Lessons
-  Hide translation #{check_box_tag 'hide_transl', 'hide translations', true}
   = render 'shared/lessons'
+- elsif params[:controller] == 'translate_me_game'
+  %h1 Translate Me
+  = render 'shared/games'
