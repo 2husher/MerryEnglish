@@ -356,5 +356,36 @@ Begin Lesson 24
 суд [N] trial [] He went on trial for robbing the bank.
 жестокий [ADJ] violent [] The man was put into jail because he was violent.
 
+
 End Lesson 24
+############################################################
+Begin Lesson 25
+
+признавать, соглашаться [V] admit [] I had to admit that I stole his idea.
+мусорное ведро [N] bin [] He put his trash in the bin.
+миска, чаша [N] bowl [боул] I ate a bowl of cereal for breakfast.
+хижина [N] cabin [] My grandfather owns a small cabin in the country.
+наличные деньги [N] cash [] I was able to save up enough cash to buy my mother a gift.
+преступник [N] criminal [] The police made sure the criminal couldn’t move his hands.
+дюжина [N] dozen [] Mom brought home a dozen donuts for us as a treat.
+старший [ADJ] elder [] Uncle Ray is my elder so I always try to be respectful.
+лицевой [ADJ] facial [фЕйшэл] I could tell from his facial features that he was angry.
+забор [N] fence [] The farmer put up a fence so that no one could walk on her field.
+
+End Lesson 25
+############################################################
+Begin Lesson 26
+
+вдохновлять [V] inspire [] I was inspired to write a poem after watching the sunrise.
+не более чем [ADJ] mere [миэ] We lost the game by a mere two points.
+аккуратный [ADJ] neat [] My sister always keeps her bedroom very neat.
+повод [N] occasion [] Her graduation was an occasion to have a good time.
+штраф [N] penalty [пЕналти] I had to pay a $100 penalty for parking in the wrong spot.
+грубый, невежливый [ADJ] rude [] The children at the bus stop were very rude.
+решать [V] settle [] It took three of our best executives all day to settle the problem.
+транспортное средство [N] vehicle [] A ferry is a vehicle that takes people from one island to another.
+кошелек [N] wallet [] I keep my money in a wallet.
+кричать, пронзительно кричать [V] yell [] The coach yelled at his team for their poor performance.
+
+End Lesson 26
 ############################################################
