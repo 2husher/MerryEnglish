@@ -2,7 +2,7 @@ class DictionaryController < ApplicationController
   def index
     d         = Dictionary.find(1)
     # without includes(:part_of_speech) a lot of CACHE
-    @entities = d.entities.includes(:part_of_speech).all
+    @entities = d.entities.includes(:part_of_speech)
   end
 
   def letter
