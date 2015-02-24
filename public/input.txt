@@ -1,4 +1,214 @@
-Begin Lesson 1
+Begin Lesson 39
+
+достигать [V] accomplish [] He accomplished his goal of running ten miles.
+утверждать, одобрять [V] approve [] Her co-workers approved her new plan.
+приблизительный, примерный [ADJ] approximate [] My approximate height is two meters.
+барьер [N] barrier [] The Great Wall was a barrier between China and its enemies.
+обнаруживать [V] detect [] The boy ran to the kitchen when he detected the smell of cookies.
+обязанность [N] duty [] It is parents’ duty to take care of their children.
+начальный [ADJ] elementary [] Children go to elementary school before high school.
+неудача [N] failure [] My cooking ended in failure because I burned the food.
+постепенный [ADJ] gradual [] Children learn to read at a gradual pace. They do not learn right away.
+иммигрант [N] immigrant [] My parents were immigrants. They came from Poland.
+
+End Lesson 39
+############################################################
+Begin Lesson 40
+
+вставлять [V] insert [] The mailman inserted the letter into the mailbox.
+мнгновение, момент [N] instant [] A microwave oven cooks food in an instant.
+бедность [N] poverty [] Poverty is a problem in many countries around the world.
+притворяться [V] pretend [] The boy liked to pretend he was a king.
+ранг [N] rank [] The man got to the rank of captain in the navy.
+признание [N] recognition [] The hero got recognition for his brave deed.
+замораживать, хранить в холодильнике [V] refrigerate [] Grocery stores refrigerate fruit to make it last long.
+арендная плата [N] rent [] To live in this house, I have to pay rent at the start of each month.
+уходить на пенсию [V] retire [] My father is sixty-five years old. He is about to retire from work.
+статистика, статистический результат [N] statistic [] The statistics showed that we did just as well this year as last year.
+
+End Lesson 40
+############################################################
+Begin Lesson 41
+
+космонавт [N] astronaut [] The astronaut was walking on the moon.
+бодрствующий, не спящий [ADJ] awake [] Sometimes I lay awake in bed because I am not tired.
+храбрость [N] courage [] The man had the courage to touch the lion.
+плавать [V] float [] The boy’s toy boat floated in the pool.
+предоставлять [V] grant [] The teacher granted us a break after studying hard all day.
+сила тяжести [N] gravity [] There is no gravity in space.
+драгоценность [N] jewel [] A diamond is one of the most expensive jewels in the world.
+шахтер, горняк [N] miner [] The miner was looking for gold.
+минерал, руда [N] mineral [] Rocks are made up of different kinds of minerals.
+участвовать [V] participate [] The students participated in the school play.
+
+End Lesson 41
+############################################################
+Begin Lesson 42
+
+разрешение [N] permission [] I have permission to drive my mom’s car.
+наливать [V] pour [] I poured some milk into my sister’s cup.
+наличие [N] presence [] The presence of dark clouds meant it would rain.
+сырой, неочищенный, необработанный [ADJ] raw [] The company dumped raw sewage into the river.
+спутник [N] satellite [] The satellite was traveling around the earth.
+размер [V] scale [] I was surprised by the scale of the buildings in the downtown area.
+пропускать [V] skip [] He skipped work to get more sleep.
+растягивать [V] stretch [] She stretched her body before exercising.
+телескоп [N] telescope [] With a telescope, you can see the moon and stars easily.
+под землей [ADV] underground [] Subway trains travel underground.
+
+End Lesson 42
+############################################################
+Begin Lesson 43
+
+сигнал тревоги [N] alarm [] When the students heard the fire alarm, they left the building.
+раздельно [ADV] apart [] The couple decided to live apart from each other.
+арестовать [V] arrest [] The man was arrested for breaking the law.
+награда [N] award [] He got an award for having the best grades in class.
+порода [N] breed [] I like small dog breeds, such as terriers.
+ведро [N] bucket [] I filled the bucket with water.
+соревнование, игра [N] contest [] The girls had a contest to see who could jump higher.
+осуждать, признать выновным [V] convict [] He was convicted of the crime and sent to jail.
+гараж [N] garage [] My car does not get dirty because I keep it in the garage.
+журналист [N] journalist [] The journalist took notes for a story he was writing.
+
+End Lesson 43
+############################################################
+Begin Lesson 44
+
+щенок [N] pup [] All the girl wanted for her birthday was a pup.
+получать право [V] qualify [] He qualified to go to the final match by beating the opponent.
+чинить [V] repair [] I repaired the flat tire on my car.
+возобновлять [V] resume [] I put the newspaper down to eat breakfast. Then I resumed reading.
+грабить [V] rob [] A thief has robbed me of my passport.
+подскользнуться [V] slip [] The man slipped on the wet floor.
+несколько, до некоторой степени [ADV] somewhat [] James was somewhat upset when he had to move some boxes.
+устойчивый [ADJ] stable [] The chair is stable. Its legs are strong.
+бумажная салфетка [N] tissue [] There was a box of tissue on the table.
+двор [N] yard [] The girls jumped rope in the yard.
+
+End Lesson 44
+############################################################
+Begin Lesson 45
+
+похожий [ADJ] alike [] People often think my sister and I look alike.
+раздражать [V] annoy [] The flies buzzing around John’s head annoyed him very much.
+архитектура [N] architecture [] The architecture of the church is amazing.
+искусственный [ADJ] artificial [] That soccer field has artificial grass, but it looks real.
+цепь [N] chain [] The scary dog was secured with a chain.
+отличный, индивидуальный [ADJ] distinct [] That girl has distinct pink hair.
+различать [V] distinguish [] The twins look exactly the same. It is hard to distinguish between them.
+пыль [N] dust [] In the old house, the dust was thick on the floor and chairs.
+возбуждение [N] excitement [] Did you see the excitement in her when the team scored?
+вылечивать, исцелять [V] heal [] After my broken arm heals, I can play baseball again.
+
+End Lesson 45
+############################################################
+Begin Lesson 46
+
+наследовать [V] inherit [] She inherited her mother’s gold earrings.
+манера [N] manner [] His manner of not looking at someone while speaking, is a bit rude.
+усиливаться [V] mount [] His fear mounted as the monster crawled out from under his bed.
+крыша [N] roof [] The roof was covered with snow.
+нехватка, дефицит [N] shortage [] Since there was a shortage of food, people were hungry.
+твердый, крепкий [ADJ] solid [] The safe looked to be quite solid.
+запас [N] stock [] They keep a stock of rice so they’ll always have something to eat.
+вещество [N] substance [] Water is an important substance for all living things.
+гробница, склеп [N] tomb [] Their whole family is buried inside the tomb.
+рана [N] wound [] He had many wounds after the car accident.
+
+End Lesson 46
+############################################################
+Begin Lesson 47
+
+ванная [N] bath [] After playing in the dirt, the boy took a bath.
+наклоняться [V] bend [] Lee bent over and picked up the paper on the ground.
+жевать [V] chew [] I always chew my food carefully before swallowing it.
+инвалид [ADJ] disabled [] The disabled man used a wheelchair to move around.
+фантастический [ADJ] fantastic [] The student did a fantastic job on his project and got an award.
+художественная литература [N] fiction [] I enjoy reading works of fiction because they are very entertaining.
+флаг [N] flag [] Our country has a beautiful flag.
+осматривать [V] inspect [] The mechanic inspected our car to see if it had any problems.
+журнал [N] journal [] Mi-young was busy working on an article for an art journal.
+жидкость [N] liquid [] Water is the most important liquid for life.
+
+End Lesson 47
+############################################################
+Begin Lesson 48
+
+удивляться [V] marvel [] We marveled at her excellent piano playing.
+питательное вещество [N] nutrient [] Vegetables are full of important nutrients.
+преодолеть [V] overcome [] She overcame her shyness and spoke in front of the class.
+вспоминать [V] recall [] She was trying to recall what she had told her friend.
+сожалеть [V] regret [] I regret that I was mean to my sister.
+душа [N] soul [] Some people believe that the soul lives after the body dies.
+достаточный [ADJ] sufficient [] After eating a sufficient amount of food, I left the table.
+хирургия [N] surgery [] I needed surgery to repair my leg after the accident.
+трудный [ADJ] tough [] The man passed his driving test even though it was very tough.
+труба [N] tube [] The pile of tubes was going to be put in the ground.
+
+End Lesson 48
+############################################################
+Begin Lesson 49
+
+признавать, соглашаться [V] admit [] I had to admit that I stole his idea.
+мусорное ведро [N] bin [] He put his trash in the bin.
+миска, чаша [N] bowl [боул] I ate a bowl of cereal for breakfast.
+хижина [N] cabin [] My grandfather owns a small cabin in the country.
+наличные деньги [N] cash [] I was able to save up enough cash to buy my mother a gift.
+преступник [N] criminal [] The police made sure the criminal couldn’t move his hands.
+дюжина [N] dozen [] Mom brought home a dozen donuts for us as a treat.
+старший [ADJ] elder [] Uncle Ray is my elder so I always try to be respectful.
+лицевой [ADJ] facial [фЕйшэл] I could tell from his facial features that he was angry.
+забор [N] fence [] The farmer put up a fence so that no one could walk on her field.
+
+End Lesson 49
+############################################################
+Begin Lesson 50
+
+вдохновлять [V] inspire [] I was inspired to write a poem after watching the sunrise.
+не более чем [ADJ] mere [миэ] We lost the game by a mere two points.
+аккуратный [ADJ] neat [] My sister always keeps her bedroom very neat.
+повод [N] occasion [] Her graduation was an occasion to have a good time.
+штраф [N] penalty [пЕналти] I had to pay a $100 penalty for parking in the wrong spot.
+грубый, невежливый [ADJ] rude [] The children at the bus stop were very rude.
+решать [V] settle [] It took three of our best executives all day to settle the problem.
+транспортное средство [N] vehicle [] A ferry is a vehicle that takes people from one island to another.
+кошелек [N] wallet [] I keep my money in a wallet.
+кричать, пронзительно кричать [V] yell [] The coach yelled at his team for their poor performance.
+
+End Lesson 50
+############################################################
+Begin Lesson 51
+
+обвинять [V] accuse [] She accused her brother of breaking her computer.
+настраивать [V] adjust [] He adjusted the old guitar to make it sound better.
+развлекать, забавлять [V] amuse [эмьЮз] The singer was very good. She amused the crowd.
+коралл [N] coral [кОрэл] The diver admired the beautiful coral under the water.
+хлопок [N] cotton [] I like to wear clothes made from cotton in the summer.
+врезаться [V] crash [] There was a loud noise when the car crashed into the tree.
+палуба [N] deck [] A ship will store many supplies below its deck.
+занимать, вовлекать [V] engage [] Dad was engaged in sawing a piece of wood in half.
+твердый [ADJ] firm [] He sleeps better on a firm bed.
+топливо [N] fuel [] Heat is the fuel that comes from fire.
+
+End Lesson 51
+############################################################
+Begin Lesson 52
+
+большой, великий [ADJ] grand [грЭнд] The grand mountain rose high into the sky.
+ураган [N] hurricane [] The wind from the hurricane bent the palm tree.
+потеря, проигрыш [N] loss [] I suffered a big loss while I was gambling.
+простой [ADJ] plain [] He bought a pair of plain white shoes over the weekend.
+риф [N] reef [] He walked along the reef and looked at the water below.
+закрывать [V] shut [] Please shut the door; the air outside is cold.
+строгий [ADJ] strict [] The teacher is strict. She does not let students talk in class.
+заниматься серфингом [V] surf [] The students went to the beach to surf during their vacation.
+задание [N] task [] My task for the weekend was to clean the entire back yard.
+зона [N] zone [] Firefighters often work in danger zones.
+
+End Lesson 52
+############################################################
+Begin Lesson 53
 
 извинение [N] apology [эпОлэджи] After arguing with her teacher, the girl wrote the teacher an apology.
 смелый, храбрый [ADJ] bold [] The bold man climbed the high mountain.
@@ -11,9 +221,9 @@ Begin Lesson 1
 невиновный [ADJ] innocent [] The judge said that the woman was innocent of the crime.
 тюрьма [N] jail [] The thief was caught and sent to jail for ten years.
 
-End Lesson 1
+End Lesson 53
 ############################################################
-Begin Lesson 2
+Begin Lesson 54
 
 министр [N] minister [мИнистэ] The minister of education controls the country’s schools.
 обычный [ADJ] ordinary [] Today was just an ordinary day. Nothing unusual happened.
@@ -26,9 +236,9 @@ Begin Lesson 2
 близнец [N] twin [] My sister and I are twins. We look exactly the same.
 ведьма [N] witch [] People think that witches fly around on broomsticks.
 
-End Lesson 2
+End Lesson 54
 ############################################################
-Begin Lesson 3
+Begin Lesson 55
 
 сопровождать [V] accompany [] My brothers accompanied me to the movie.
 босые [ADJ] bare [] He likes to walk around in his bare feet.
@@ -41,9 +251,9 @@ Begin Lesson 3
 гостиница [N] inn [] The visitor got a room at the inn.
 сеть [N] net [] The boy caught butterflies in his net.
 
-End Lesson 3
+End Lesson 55
 ############################################################
-Begin Lesson 4
+Begin Lesson 56
 
 философия [N] philosophy [] My philosophy is “live and let live.
 горшок [N] pot [] Don’t touch the pot on the stove. It’s hot.
@@ -56,9 +266,69 @@ Begin Lesson 4
 весить [V] weigh [уэй] The little dog weighed exactly 3kgs.
 шептать, говорить шопотом [V] whisper [] We have to whisper in the library so people can focus on reading.
 
-End Lesson 4
+End Lesson 56
 ############################################################
-Begin Lesson 5
+Begin Lesson 57
+
+абстрактный [ADJ] abstract [эбстрЭкт] The idea of beauty is abstract and changes over time.
+ежегодный [ADJ] annual [] The only time I see my aunts and uncles is at our annual family picnic.
+глина [N] clay [] She made a bowl out of the clay.
+ткань [N] cloth [] His shirt is made of a very soft type of cloth.
+занавеска [N] curtain [] She opened the curtains to let light into the room.
+заслуживать [V] deserve [дизЁв] The dog deserved a bone for behaving very well.
+перо [N] feather [фЕthэ] That bird has orange feathers on its chest.
+плодородный [ADJ] fertile [фЁтл] The farmer grew many vegetables in the fertile soil.
+наводнение [N] flood [] After three days of rain, there was a flood in the city.
+мебель [N] furniture [] His living room only had a few simple pieces of furniture.
+
+End Lesson 57
+############################################################
+Begin Lesson 58
+
+могила [N] grave [] We visit our grandfather’s grave each year.
+идеальный [ADJ] ideal [айдИэл] This house is an ideal place for my family. It has everything we need.
+интеллект [N] intelligence [] Because of his high intelligence, he finished school early.
+в наше время, теперь [ADV] nowadays [] In the past people walked everywhere. Nowadays, they use cars.
+получать [V] obtain [] After I passed the test, I obtained my driver’s license.
+религиозный [ADJ] religious [] The holy man spoke about religious topics.
+романтическое [ADJ] romantic [] The young couple went to see a romantic movie.
+раковина [N] shell [] There were many pretty shells on the beach.
+берег [N] shore [] All of the boats were floating near the shore.
+колесо [N] wheel [] A car has four wheels.
+
+End Lesson 58
+############################################################
+Begin Lesson 59
+
+привлекать, нравиться [V] appeal [] Sleeping all day appeals to me, but I have to go to school.
+предполагать [V] assume [эсЮм] I assume you are both familiar with this plan.
+занимать, брать на время [V] borrow [] Can I borrow a pencil to use today? I’ll give it back to you tomorrow.
+клиент [N] client [] She has many clients who enjoy coming to her salon.
+деловая часть города [N] downtown [] The downtown is filled with many tall buildings.
+тупой, унылый [ADJ] dull [] The movie was very dull. I fell asleep watching it.
+смущать, стеснять [V] embarrass [имбЕрэс] He was embarrassed when he couldn’t remember her name.
+плата за проезд [N] fare [фЕэ] Since he is a senior, my grandfather pays a low fare for the bus.
+бывший [ADJ] former [] The hotel, a former castle, was built over 200 years ago.
+формула [N] formula [] I learned a new formula that may help us with our problem.
+
+End Lesson 59
+############################################################
+Begin Lesson 60
+
+основывать [V] found [] The pilgrims founded one of the first colonies in the United States.
+инвестировать, вкладывать [V] invest [] I invested money in a new building that should bring me a profit.
+ссуда [N] loan [] I got a loan from the bank.
+практичный, полезный [ADJ] practical [] Learning English is practical; you can use it in many places.
+25 центов, четвертак [N] quarter [] He paid a quarter for the candy.
+зарплата [N] salary [] He got a new job with a better salary.
+стипендия [N] scholarship [] I got a scholarship to help me pay for university.
+временный [ADJ] temporary [] This car is only temporary; I’ll get a new one soon.
+сокровище [N] treasure [] They became very rich when they found the buried treasure.
+побуждать, настаивать на [V] urge [Ёдж] He urged them to believe his story.
+
+End Lesson 60
+############################################################
+Begin Lesson 1
 
 тревожный [ADJ] anxious [] She was anxious about not making her appointment on time.
 ужасный [ADJ] awful [] Her performance last night was awful.
@@ -71,9 +341,9 @@ Begin Lesson 5
 поднимать [V] lift [] The man tried to lift the box.
 грузить [V] load [] The man loaded the boxes into a truck.
 
-End Lesson 5
+End Lesson 1
 ############################################################
-Begin Lesson 6
+Begin Lesson 2
 
 легкое [N] lung [] Having strong lungs is necessary for a healthy life.
 движение [N] motion [] The police officer made a motion with his hand.
@@ -86,9 +356,9 @@ Begin Lesson 6
 светить [V] shine [] The candles are shining in the dark room.
 пролить [V] spill [] I spilled the coffee on the table.
 
-End Lesson 6
+End Lesson 2
 ############################################################
-Begin Lesson 7
+Begin Lesson 3
 
 приносить [V] bring [] Oscar will bring in all the boxes.
 замок [N] castle [] The castle was built many years ago.
@@ -101,9 +371,9 @@ Begin Lesson 7
 метеор [N] meteor [мИтиэ] We saw a meteor in the sky last night.
 монстр, чудовище [N] monster [] The monster scared everyone in the village.
 
-End Lesson 7
+End Lesson 3
 ############################################################
-Begin Lesson 8
+Begin Lesson 4
 
 северный [ADJ] northern [] It is much colder in northern countries than it is here.
 удаленный [ADJ] remote [] It took many days to get to the remote island.
@@ -116,9 +386,9 @@ Begin Lesson 8
 сорняк [N] weed [] The yard of the house was full of ugly weeds.
 крыло [N] wing [] The bird used its wings to fly across the water.
 
-End Lesson 8
+End Lesson 4
 ############################################################
-Begin Lesson 9
+Begin Lesson 5
 
 стрела [N] arrow [] The arrow flew through the air and hit the target.
 битва [N] battle [] The battle lasted for many days.
@@ -131,9 +401,9 @@ Begin Lesson 9
 едва [ADV] hardly [] I hardly saw the concert since I had to leave early.
 намереваться [V] intend [] I intend to finish college in three years.
 
-End Lesson 9
+End Lesson 5
 ############################################################
-Begin Lesson 10
+Begin Lesson 6
 
 смех [N] laughter [] Susan’s joke made her classmates burst into laughter.
 бревно [N] log [] The fire was too small, so we added another log to it.
@@ -146,9 +416,9 @@ Begin Lesson 10
 пока не [CONJ] unless [] Unless you clean your room, you cannot play with your friends.
 оружие [N] weapon [] Swords have been used as weapons for thousands of years.
 
-End Lesson 10
+End Lesson 6
 ############################################################
-Begin Lesson 11
+Begin Lesson 7
 
 грудная клетка [N] chest [] The water in the lake was as high as my chest.
 уверенность [N] confidence [] I have confidence that I did well on the test.
@@ -161,9 +431,9 @@ Begin Lesson 11
 марафон [N] marathon [мЭрэthэн] I ran a marathon, and now my legs are tired.
 узкий [ADJ] narrow [] The bridge is too narrow for a car to drive over.
 
-End Lesson 11
+End Lesson 7
 ############################################################
-Begin Lesson 12
+Begin Lesson 8
 
 бледный [ADJ] pale [] The girl’s skin was very pale.
 грубый [ADJ] rough [] The rough ground hurt my feet.
@@ -176,9 +446,9 @@ Begin Lesson 12
 угроза [N] threat [] Due to the dark clouds, there was a threat of a bad storm.
 жертва [N] victim [] I was a victim of a robbery.
 
-End Lesson 12
+End Lesson 8
 ############################################################
-Begin Lesson 13
+Begin Lesson 9
 
 предок [N] ancestor [Энсэстэ] My ancestors came from Germany.
 угол [N] angle [] The giraffe turned its head to see from another angle.
@@ -191,9 +461,9 @@ Begin Lesson 13
 легенда [N] legend [] There is a well-known legend about a king and his queen.
 хвалить [V] praise [] The coach praised both athletes after a good practice.r
 
-End Lesson 13
+End Lesson 9
 ############################################################
-Begin Lesson 14
+Begin Lesson 10
 
 идти, направляться [V] proceed [] My son and I proceeded to the beach so we could go fishing.
 чистый, без примесей [ADJ] pure [] The rose was pure. It had no dirt or imperfections.
@@ -206,9 +476,9 @@ Begin Lesson 14
 толстый [ADJ] thick [] The fog was so thick that I couldn’t see through it.
 оборачивать [V] wrap [] I wrapped his gift and put a bow on it.
 
-End Lesson 14
+End Lesson 10
 ############################################################
-Begin Lesson 15
+Begin Lesson 11
 
 за границей [ADJ] abroad [] My brother wants to go abroad next year.
 злить [V] anger [] It angers me when people are rude.
@@ -221,9 +491,9 @@ Begin Lesson 15
 одолжение [N] favor [] Can you do me a favor and turn off the lights?
 плата [N] fee [] I had to pay an hourly fee to speak with my lawyer.
 
-End Lesson 15
+End Lesson 11
 ############################################################
-Begin Lesson 16
+Begin Lesson 12
 
 навсегда [ADJ] forever [] The young couple promised that they would love each other forever.
 парень [N] guy [] The guy at the flower shop was really helpful today.
@@ -236,9 +506,9 @@ Begin Lesson 16
 племя [N] tribe [] There’s a small tribe of people who live in the mountains of Spain.
 молодость, юность [N] youth [йууth] My mother wanted to be a nurse in her youth.
 
-End Lesson 16
+End Lesson 12
 ############################################################
-Begin Lesson 17
+Begin Lesson 13
 
 основа [N] basis [] My grandfather gets his hearing checked on a yearly basis.
 биология [N] biology [] We learned about the human heart in biology class.
@@ -251,9 +521,9 @@ Begin Lesson 17
 основанный на фактах [ADJ] factual [] John learns about history from factual books.
 очаровывать [V] fascinate [] The kitten was fascinated by the ball of yarn.
 
-End Lesson 17
+End Lesson 13
 ############################################################
-Begin Lesson 18
+Begin Lesson 14
 
 миссия [N] mission [] The woman’s mission was to help sick people.
 тем не менее [ADV] nevertheless [] He is usually friendly. Nevertheless, he wasn’t this afternoon.
@@ -266,9 +536,9 @@ Begin Lesson 18
 значительный [ADJ] significant [] I read many significant novels as a literature major in university.
 вулкан [N] volcano [] When the volcano erupted, smoke and heat filled the air.
 
-End Lesson 18
+End Lesson 14
 ############################################################
-Begin Lesson 19
+Begin Lesson 15
 
 широкий [ADJ] broad [] The river is very long and broad.
 куст [N] bush [] My dad and I planted some small bushes around the house.
@@ -281,9 +551,9 @@ Begin Lesson 19
 передавать [V] convey [конвЭй] That picture of a crying child conveys a feeling of sadness.
 определенный [ADJ] definite [] There is a definite connection between hard work and success.
 
-End Lesson 19
+End Lesson 15
 ############################################################
-Begin Lesson 20
+Begin Lesson 16
 
 восторг [N] delight [] He felt such delight after getting a promotion at work.
 пункт назначения [N] destination [] The destination of this plane is Munich, Germany.
@@ -296,9 +566,9 @@ Begin Lesson 20
 подозревать [V] suspect [] I suspect that those kids stole the money.
 долина [N] valley [вЭли] We looked at the valley below from the top of the mountain.
 
-End Lesson 20
+End Lesson 16
 ############################################################
-Begin Lesson 21
+Begin Lesson 17
 
 восхищаться [V] admire [] I admire my brother for his hard work.
 помогать [V] aid [] The doctor aided the boy after his accident.
@@ -311,9 +581,9 @@ Begin Lesson 21
 беспорядок [N] disorder [дисОдэ] The teacher’s desk had many papers in disorder.
 деление [N] division [] The chart had six divisions which all had different colors.
 
-End Lesson 21
+End Lesson 17
 ############################################################
-Begin Lesson 22
+Begin Lesson 18
 
 давать возможность [V] enable [] Having the key enabled us to open the door.
 разочаровывать [V] frustrate [] The machine frustrated me because I could not fix it.
@@ -326,9 +596,9 @@ Begin Lesson 22
 бороться [V] struggle [] The kids struggled with each other for the toy.
 глупый [ADJ] stupid [] He said something stupid that made everyone angry at him.
 
-End Lesson 22
+End Lesson 18
 ############################################################
-Begin Lesson 23
+Begin Lesson 19
 
 гражданин [N] citizen [] Carlos was born in Spain. He is a Spanish citizen.
 Совет [N] council [кАунсэл] The council met to discuss the new laws for the city.
@@ -341,9 +611,9 @@ Begin Lesson 23
 впечатление [N] impression [] Most people’s first impression of Dr. Giani is that he is mean.
 доход [N] income [] Her company pays her a fairly good income.
 
-End Lesson 23
+End Lesson 19
 ############################################################
-Begin Lesson 24
+Begin Lesson 20
 
 сумасшедший [ADJ] mad [] Mother got mad when I didn’t listen to her.
 должен [V] ought [] I ought to take my library books back.
@@ -357,9 +627,9 @@ Begin Lesson 24
 жестокий [ADJ] violent [] The man was put into jail because he was violent.
 
 
-End Lesson 24
+End Lesson 20
 ############################################################
-Begin Lesson 25
+Begin Lesson 21
 
 признавать, соглашаться [V] admit [] I had to admit that I stole his idea.
 мусорное ведро [N] bin [] He put his trash in the bin.
@@ -372,9 +642,9 @@ Begin Lesson 25
 лицевой [ADJ] facial [фЕйшэл] I could tell from his facial features that he was angry.
 забор [N] fence [] The farmer put up a fence so that no one could walk on her field.
 
-End Lesson 25
+End Lesson 21
 ############################################################
-Begin Lesson 26
+Begin Lesson 22
 
 вдохновлять [V] inspire [] I was inspired to write a poem after watching the sunrise.
 не более чем [ADJ] mere [миэ] We lost the game by a mere two points.
@@ -387,5 +657,5 @@ Begin Lesson 26
 кошелек [N] wallet [] I keep my money in a wallet.
 кричать, пронзительно кричать [V] yell [] The coach yelled at his team for their poor performance.
 
-End Lesson 26
+End Lesson 22
 ############################################################
