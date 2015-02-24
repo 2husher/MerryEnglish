@@ -10,6 +10,7 @@
 #   timeout: 5000
 default: &default
   adapter: postgresql
+  encoding: unicode
   username: rails
   password:
 
