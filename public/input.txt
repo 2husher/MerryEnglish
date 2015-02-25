@@ -352,7 +352,7 @@ Begin Lesson 24
 металл [N] metal [] Steel is a common metal that is used to build buildings.
 контролировать [V] monitor [] The teacher monitors the students when they take tests.
 выступать против [V] oppose []I want to be a police officer because I oppose crime.
-пассивный [A] passive [] Marcie is so passive that she never solves her own problems.
+пассивный [ADJ] passive [] Marcie is so passive that she never solves her own problems.
 количество [N] quantity [] I have a small quantity of milk in my glass.
 предъявлять иск [V] sue  [] I sued the company after I slipped on a banana peel in their hallway.
 
