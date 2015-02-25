@@ -60,12 +60,12 @@ d.letters.create!([{ name: 'A' }, { name: 'B' }, { name: 'C' }, { name: 'D' }, {
                 { name: 'P' }, { name: 'Q' }, { name: 'R' }, { name: 'S' }, { name: 'T' },
                 { name: 'U' }, { name: 'V' }, { name: 'W' }, { name: 'X' }, { name: 'Y' },
                 { name: 'Z' }])
-PartOfSpeech.create!([{ name: 'verb', alias: 'V' },
-                      { name: 'noun', alias: 'N' },
-                      { name: 'adjective', alias: 'ADJ' },
-                      { name: 'adverb', alias: 'ADV' },
-                      { name: 'conjunction', alias: 'CONJ' },
-                      { name: 'preposition', alias: 'PREP' }])
+PartOfSpeech.create!([{ name: 'verb', acronym: 'V' },
+                      { name: 'noun', acronym: 'N' },
+                      { name: 'adjective', acronym: 'ADJ' },
+                      { name: 'adverb', acronym: 'ADV' },
+                      { name: 'conjunction', acronym: 'CONJ' },
+                      { name: 'preposition', acronym: 'PREP' }])
 dict.each do |lsn|
   v(debug, "in dict each")
   l = Lesson.create!(number: lsn[:number])
@@ -77,7 +77,7 @@ dict.each do |lsn|
     v(debug, "before entity.letter")
     e1.letter = d.letters.find_by(name: e[:letter])
     v(debug, "before entity.part_of_speech")
-    e1.part_of_speech = PartOfSpeech.find_by(alias: e[:part_of_speech])
+    e1.part_of_speech = PartOfSpeech.find_by(acronym: e[:part_of_speech])
     v(debug, "before entity.save")
     e1.save!
   end

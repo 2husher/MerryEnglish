@@ -1,6 +1,7 @@
 class DictionaryController < ApplicationController
   def index
-    d         = Dictionary.find(1)
+    d         = Dictionary.first
+    p Dictionary.all
     # without includes(:part_of_speech) a lot of CACHE
     @entities = d.entities.includes(:part_of_speech)
   end
