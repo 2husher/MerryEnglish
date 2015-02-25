@@ -64,7 +64,8 @@ PartOfSpeech.create!([{ name: 'verb', alias: 'V' },
                       { name: 'noun', alias: 'N' },
                       { name: 'adjective', alias: 'ADJ' },
                       { name: 'adverb', alias: 'ADV' },
-                      { name: 'conjunction', alias: 'CONJ' }])
+                      { name: 'conjunction', alias: 'CONJ' },
+                      { name: 'preposition', alias: 'PREP' }])
 dict.each do |lsn|
   v(debug, "in dict each")
   l = Lesson.create!(number: lsn[:number])
