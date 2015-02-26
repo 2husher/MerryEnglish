@@ -8,7 +8,7 @@ class DictionaryController < ApplicationController
 
   def letter
     begin
-      d         = Dictionary.find(1)
+      d         = Dictionary.first
       @letter   = d.letters.find_by(name: params[:letter])
       @entities = @letter.entities
     rescue Exception => e
