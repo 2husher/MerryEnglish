@@ -1,13 +1,16 @@
 class TranslateMeGameController < ApplicationController
   def all
-    @lessons = Lesson.includes(:entities).all
+    @category = Category.find(params[:id])
+    @lessons  = @category.lessons.includes(:entities).all
   end
 
   def translate
-    @lesson = Lesson.find_by(number: params[:lesson_number])
+    @category = Category.find(params[:id])
+    @lessons  = @category.lessons.includes(:entities).all
+    @lesson = @category.lessons.find_by(number: params[:lesson_number])
     @entities_array = []
     @lesson.entities.each do |e|
-      tmp = []
+      tmp    = []
       tmp[0] = e.word
       tmp[1] = e.translation
       tmp[2] = e.sentence

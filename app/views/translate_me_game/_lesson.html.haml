@@ -1,7 +1,5 @@
-= link_to 'Translate Me Game', translate_me_path(lesson.number)
+= link_to 'Translate Me Game', translate_me_category_path(@category, lesson.number)
 for
-= link_to "Lesson #{lesson.number}", lesson_path(lesson.number)
-%br
+= link_to "Lesson #{lesson.number}", lesson_category_path(@category, lesson.number)
 - lesson.entities.each do |e|
   %i= e.word
-%hr

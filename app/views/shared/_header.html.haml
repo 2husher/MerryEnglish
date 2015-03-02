@@ -3,6 +3,11 @@
     .container
       %nav
         %ul.nav
-          %li= link_to 'Dictionary', dictionary_all_path
-          %li= link_to 'Lessons', lessons_all_path
-          %li= link_to 'Translate Me', translate_me_all_path
+          %li= link_to 'Categories', categories_path
+          - if @category.present?
+            %li= link_to 'Words', dictionary_all_category_path(@category)
+          - else
+            %li= link_to 'All Words', dictionary_all_path
+          - if @category.present?
+            %li= link_to 'Lessons', lessons_all_category_path(@category)
+            %li= link_to 'Translate Me', translate_me_all_category_path(@category)

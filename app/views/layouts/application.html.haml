@@ -10,8 +10,7 @@
     = render 'shared/header'
     .container
       = render 'shared/top_bar'
-      %hr
       = yield
       = render 'shared/bottom_bar'
-    %hr
+      -#= debug(params)
     = render 'shared/footer'

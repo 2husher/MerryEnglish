@@ -1,17 +1,34 @@
 Rails.application.routes.draw do
-  get 'dictionary/all' => 'dictionary#index', as: :dictionary_all
+  root "categories#index"
 
-  get 'dictionary/:letter' => 'dictionary#letter', as: :dictionary
+  # get 'categories/all' => 'categories#all', as: :categories_all
 
-  get 'part_of_speech/:part_of_speech' => 'dictionary#part_of_speech', as: :part_of_speech
+  # get 'category/:id' => 'categories#show', as: :category do
+  resources :categories do
+    member do
+      get 'lessons/all'
+      get 'lessons/:number', to: 'lessons#show', as: :lesson
+      get 'translate_me/all' => 'translate_me_game#all', as: :translate_me_all
+      get 'translate_me/:lesson_number' => 'translate_me_game#translate', as: :translate_me
+      get 'dictionary/all'
+      get 'dictionary/:letter' => 'dictionary#letter', as: :dictionary
+      get 'part_of_speech/:part_of_speech' => 'dictionary#part_of_speech', as: :part_of_speech
+    end
+  end
 
-  get 'lessons/all' => 'lessons#all', as: :lessons_all
+  get 'dictionary/all_words' => 'dictionary#all_words', as: :dictionary_all
 
-  get 'lessons/:number' => 'lessons#number', as: :lesson
+  get 'dictionary/:letter' => 'dictionary#all_letters', as: :dictionary
 
-  get 'translate_me/all' => 'translate_me_game#all', as: :translate_me_all
+  get 'part_of_speech/:part_of_speech' => 'dictionary#all_part_of_speech', as: :part_of_speech
 
-  get 'translate_me/:lesson_number' => 'translate_me_game#translate', as: :translate_me
+  #get 'lessons/all' => 'lessons#all', as: :lessons_all
+
+  #get 'lessons/:number' => 'lessons#number', as: :lesson
+
+  #get 'translate_me/all' => 'translate_me_game#all', as: :translate_me_all
+
+  #get 'translate_me/:lesson_number' => 'translate_me_game#translate', as: :translate_me
 
 
   # The priority is based upon order of creation: first created -> highest priority.

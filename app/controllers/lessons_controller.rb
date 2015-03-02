@@ -1,10 +1,13 @@
 class LessonsController < ApplicationController
   def all
-    @lessons = Lesson.includes(:entities).all
+    @category = Category.find(params[:id])
+    @lessons  = @category.lessons.includes(:entities).all
   end
 
-  def number
-    @lesson   = Lesson.find_by(number: params[:number])
+  def show
+    @category = Category.find(params[:id])
+    @lesson   = @category.lessons.find_by(number: params[:number])
+    @lessons  = @category.lessons.includes(:entities).all
     @entities = @lesson.entities
   end
 end

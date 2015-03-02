@@ -1,8 +1,11 @@
-= link_to 'All Letters', dictionary_all_path
+= link_to 'All Letters', dictionary_all_category_path(@category)
 - Letter.all.each do |l|
-  = link_to l.name, dictionary_path(l.name)
-%br
+  - if @category.present?
+    = link_to l.name, dictionary_category_path(@category, l.name)
+  - else
+    = link_to l.name, dictionary_path(l.name)
 - PartOfSpeech.all.each do |pos|
-  = link_to pos.name, part_of_speech_path(pos.name)
-  \|
-%br
+  - if @category.present?
+    = link_to pos.name, part_of_speech_category_path(@category, pos.name)
+  - else
+    = link_to pos.name, part_of_speech_path(pos.name)

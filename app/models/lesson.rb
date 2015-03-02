@@ -12,5 +12,5 @@
 class Lesson < ActiveRecord::Base
   has_many :entities
 
-  validates :number, presence: true, uniqueness: true
+  validates :number, presence: true#, uniqueness: true
 end
