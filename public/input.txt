@@ -868,7 +868,7 @@ Begin Lesson 58 Category First 600 Words
 
 End Lesson 58
 ############################################################
-Begin Lesson 1 Category Second 600 Words
+Begin Lesson 59 Category First 600 Words
 
 привлекать, нравиться [V] appeal [] Sleeping all day appeals to me, but I have to go to school.
 предполагать [V] assume [эсЮм] I assume you are both familiar with this plan.
@@ -881,9 +881,9 @@ Begin Lesson 1 Category Second 600 Words
 бывший [ADJ] former [] The hotel, a former castle, was built over 200 years ago.
 формула [N] formula [] I learned a new formula that may help us with our problem.
 
-End Lesson 1
+End Lesson 59
 ############################################################
-Begin Lesson 2 Category Second 600 Words
+Begin Lesson 60 Category First 600 Words
 
 основывать [V] found [] The pilgrims founded one of the first colonies in the United States.
 инвестировать, вкладывать [V] invest [] I invested money in a new building that should bring me a profit.
@@ -896,4 +896,155 @@ Begin Lesson 2 Category Second 600 Words
 сокровище [N] treasure [] They became very rich when they found the buried treasure.
 побуждать, настаивать на [V] urge [Ёдж] He urged them to believe his story.
 
+End Lesson 60
+############################################################
+Begin Lesson 1 Category Second 600 Words
+
+возникать, случаться [V] arise [] Difficulties arose with his computer because it was old.
+благодетель [N] benefactor [] The student’s benefactor gave him money to spend on his studies.
+кузнец [N] blacksmith [] The blacksmith pounded the piece of metal until it was flat.
+благотворительный [ADJ] charitable [] My sister was charitable enough to help me buy my first house.
+дымовая труба [N] chimney [] The cat was on the roof sitting next to the chimney.
+возмещать [V] compensate [] Her boss compensated her for the extra work she did last week.
+сталкиваться, неожиданно встретить [V] encounter [] I encountered a sea turtle while I was swimming.
+превышать [V] exceed [] Since I exceeded my limit, I decided to get rid of my credit cards.
+ковать [V] forge [] Stacy and Heather forged their friendship when they were teenagers.
+скромный [ADJ] humble [] Even though Bob is the smartest boy in his class, he is humble.
+
+End Lesson 1
+############################################################
+Begin Lesson 2 Category Second 600 Words
+
+железо [N] iron [] The horse had shoes made of iron.
+лестница [N] ladder [] He used a ladder to climb to the top of his tree house.
+скромный [ADJ] modest [] Derek is very modest for someone who is so rich.
+занимать [V] occupy [] Kevin and Alice occupied the chairs and had a long discussion.
+один цент [N] penny [] U.S. President Abraham Lincoln is on the penny.
+проповедовать [V] preach [] Aaron often preached about living an honest life.
+процветать, преуспевать [V] prosper [] Frank’s new business finally prospered after many years of hard work.
+провинция [N] province [] Canada is divided into several different provinces.
+удовлетворение [N] satisfaction [] Brad was filled with satisfaction when he saw what was for dinner.
+поддерживать [V] sustain [] Wind power is a clean way to sustain a city with energy.
+
 End Lesson 2
+############################################################
+Begin Lesson 3 Category Second 600 Words
+
+получать [V] acquire [] Tina acquired a strange package yesterday.
+неловкий [ADJ] awkward [] After dropping his coffee cup, Robbie felt awkward.
+лицо, присматривающее за человеком [N] caretaker [] My grandmother’s caretaker helps her get around the house.
+обманывать [V] deceive [] He tried to deceive his friends as they were playing a game.
+отбивать охоту, отговаривать [V] discourage [] Mr. Perry discouraged the students from quitting school.
+поддельный [ADJ] fake [] The model was wearing fake eyelashes.
+ненависть, отвращение [N] hatred [] I have a hatred for the taste of medicine.
+хижина [N] hut [] We all went into the hut to sleep.
+худший [ADJ] inferior [] Cars built a hundred years ago are inferior to ones built today.
+охотничий домик [N] lodge [] During our ski trip, we stayed at a lodge.
+
+End Lesson 3
+############################################################
+Begin Lesson 4 Category Second 600 Words
+
+не заботиться [V] neglect [] William neglected his room, so it is a complete mess.
+новичок [N] newcomer [] The students happily welcomed the newcomer to the school.
+преступление, нарушение [N] offense [] Stealing a car is a very serious offense.
+не заметить [V] overlook [] Brenda overlooked the last step and had a bad fall.
+отплачивать [V] repay [] She repaid her friend for all of his hard work with a small gift.
+смехотворно [ADJ] ridiculous [] Steve looked ridiculous with those huge blue sunglasses.
+удовлетворительный [ADJ] satisfactory [] Mina often received satisfactory grades since she studied so hard.
+пастух [N] shepherd [] The shepherd moved the sheep to another field.
+отважиться, рисковать [V] venture [] Even though it was dangerous, they ventured up the mountain.
+пшеница [N] wheat [] The field of golden wheat was ready to be harvested.
+
+End Lesson 4
+############################################################
+Begin Lesson 5 Category Second 600 Words
+
+аллея [N] alley [] The alley behind my house looks dirty.
+топор [N] ax [] She used an ax to cut some wood for the fire.
+связка [N] bunch []She was hungry, so she ate the entire bunch of grapes.
+рутина, поденная работа [N] chore [] It’s Nikki’s chore to do the dishes every Tuesday and Wednesday night.
+приличный, порядочный [ADJ] decent [] Eric did a decent job painting the fence.
+позор [N] disgrace [] He felt a sense of disgrace after failing his big exam.
+локоть [N] elbow [] She pointed to her elbow to show me where she hurt herself.
+благодарный, признательный [ADJ] grateful [] The girls were grateful to have a chance to spend time with their grandfather.
+раздражать [V] irritate [] She was irritated when her brother told her that he had lost her camera.
+обманывать, дурачиться [V] kid [] I am not really mad. I was kidding when I said I was angry.
+
+End Lesson 5
+############################################################
+Begin Lesson 6 Category Second 600 Words
+
+болтающийся [ADJ] loose [] The bolt was loose, so I tightened it with the wrench.
+оскорблять, обижать [V] offend [] They were both offended by what they had said to each other.
+всю ночь [ADV] overnight [] The campers stayed in the tent overnight.
+упорствовать [V] persist [] Even though the lesson was difficult, he persisted until he understood.
+сосна [N] pine [] There were many beautiful pine trees in the forest.
+шрам [N] scar [] The monster had horrible scars on his cheek and forehead.
+ощущение, чувство [N] sensation [] Mom got a painful sensation in her head from the loud noise.
+сани [N] sled [] Marvin likes to ride his sled down the hill in winter.
+дразнить [V] tease [] Jake teased Charlie because he was the new student.
+возлюбленный [N] valentine [] Harry wanted Molly to be his valentine.
+
+End Lesson 6
+############################################################
+Begin Lesson 7 Category Second 600 Words
+
+цвести [V] bloom [] Roses look so pretty when they bloom.
+компактный [ADJ] compact [] A laptop computer is much more compact than a desktop model.
+завиток, спираль [N] curl [] The colorful ribbons were bent into curls.
+разрушаться, разлагаться [V] decay [] The old wooden house was slowly decaying.
+десерт [N] dessert [] Kayla wants ice cream for dessert.
+окунать [V] dip [] Laurel dipped her strawberry into the chocolate.
+отдаленный [ADJ] distant [] Michael could barely see the distant island.
+затмение [N] eclipse [] A complete eclipse of the sun is a very rare occurrence.
+фея [N] fairy [] There are usually fairies in fantasy stories.
+изящество, грация [N] grace [] The ballerina danced with grace.
+
+End Lesson 7
+############################################################
+Begin Lesson 8 Category Second 600 Words
+
+досуг [N] leisure [] Eve likes to listen to music in her leisure time.
+человечество [N] mankind [] All of mankind has to work to make this a better world.
+страть [N] passion [] She had a passion for dancing.
+подушка [N] pillow [] When I travel, I usually take along my favorite pillow .
+пульс [N] pulse [] The doctor checked the patient’s pulse by feeling his wrist.
+освежать [V] refresh [] The baby was refreshed after taking a cool bath.
+чихать [V] sneeze [] He sneezed after smelling the flower.
+специи [N] spice [] Two common spices found in many homes are salt and pepper.
+свистеть [V] whistle [] As he was listening to music, Daryl whistled.
+шерсть [N] wool [] Grandma wants to use the blue wool to kn it me a sweater.
+
+End Lesson 8
+############################################################
+Begin Lesson 9 Category Second 600 Words
+
+познакомить [V] acquaint [] Nancy acquainted herself with the new computer.
+кладбище [N] cemetery [] Some people are scared of cemeteries.
+проклинать [V] curse [] The witch cursed the village.
+маскировка, переодевание [N] disguise [] Everyone knew that it was Dad in the Santa disguise.
+причудливый [ADJ] fancy [] Their table was all set for a fancy dinner.
+фонарик [N] flashlight [] We took a flash light when we went camping.
+капюшон [N] hood [] She put on her hood to keep her head warm.
+житель, обитатель [N] inhabitant [] The number of inhabitants in the countryside is increasing.
+кормить [V] nourish [] A good mother will nourish her baby every day.
+пират [N] pirate [] Pirates are very scary characters.
+
+End Lesson 9
+############################################################
+Begin Lesson 10 Category Second 600 Words
+
+издание [N] publication [] She’s been a subscriber to that publication for over ten years.
+загадка [N] riddle [] I could not answer Wendy’s riddle, but it made me laugh.
+гнить [V] rot [] The old log began to rot in the forest.
+пугать [V] scare [] I was scared by the sight of the monster.
+вскоре [ADV] shortly [] My workday will end shortly.
+скелет [N] skeleton [] There is a skeleton in the science classroom.
+портиться [V] spoil [] We left the fruit out too long, and it spoiled.
+голодать [V] starve [] During the war, many people starved.
+нервная дрожь, возбуждение [N] thrill [] The boys enjoy the thrill of surfing a big wave.
+злой [ADJ] wicked [] My boss is a very wicked man.
+
+End Lesson 10
+############################################################
