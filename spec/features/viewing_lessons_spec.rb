@@ -1,6 +1,7 @@
 require 'spec_helper'
 
 feature 'Viewing Lessons' do
+  subject { page }
 
   given!(:dictionary) { FactoryGirl.create(:dictionary) }
 
@@ -21,69 +22,81 @@ feature 'Viewing Lessons' do
                                 letter: a, lesson: lesson_one, part_of_speech: noun) }
 
 
-  scenario "All Lessons path" do
-    visit lessons_all_path
+  feature "All Lessons path" do
+    before do
+      visit lessons_all_path
+    end
 
-    expect(page).to have_title("MerryEnglish")
+    scenario { should have_title("MerryEnglish") }
     #FIXME: сделать header и footer отдельные тесты
-    expect(page).to have_content("Dictionary")
-    expect(page).to have_content("Lessons")
-    expect(page).to have_content("Translate Me")
+    scenario { should have_content("Dictionary") }
+    scenario { should have_content("Lessons") }
+    scenario { should have_content("Translate Me") }
 
-    expect(page).to have_content("Lessons")
-    expect(page).to have_content("All Lessons")
+    scenario { should have_content("Lessons") }
+    scenario { should have_content("All Lessons") }
 
-    expect(page).to have_link("Lesson #{lesson_one.number}")
-    expect(page).to have_content("<Translate Me Game>")
-    expect(page).to have_content(first_word.word)
+    scenario { should have_link("Lesson #{lesson_one.number}") }
+    scenario { should have_content("<Translate Me Game>") }
+    scenario { should have_content(first_word.word) }
 
-    expect(page).to have_link("Lesson #{lesson_two.number}")
-    expect(page).to have_content(second_word.word)
+    scenario { should have_link("Lesson #{lesson_two.number}") }
+    scenario { should have_content(second_word.word) }
 
-    expect(page).to have_content("Lessons: #{lesson_one.number} #{lesson_two.number}")
+    scenario { should have_content("Lessons: #{lesson_one.number} #{lesson_two.number}") }
 
-    expect(page).to have_content("2015 by Alex Izotov (izotovalexander@gmail.com)")
+    scenario { should have_content("2015 by Alex Izotov (izotovalexander@gmail.com)") }
   end
 
-  scenario "Lesson 1 path" do
-    visit lesson_path(lesson_one.number)
+  feature "Lesson 1 path" do
+    before do
+      visit lesson_path(lesson_one.number)
+    end
 
-    expect(page).to have_content("Lesson #{lesson_one.number}")
-    expect(page).to have_content("<Translate Me Game>")
+    scenario { should have_content("Lesson #{lesson_one.number}") }
+    scenario { should have_content("<Translate Me Game>") }
 
-    expect(page).to have_content(second_word.word)
-    expect(page).to have_content(second_word.translation)
-    expect(page).to have_content(second_word.sentence)
-    expect(page).to have_content(second_word.part_of_speech.acronym)
+    scenario { should have_content(second_word.word) }
+    scenario { should have_content(second_word.translation) }
+    scenario { should have_content(second_word.sentence) }
+    scenario { should have_content(second_word.part_of_speech.acronym) }
 
-    expect(page).to have_content("Lessons: #{lesson_one.number} #{lesson_two.number}")
+    scenario { should have_content("Lessons: #{lesson_one.number} #{lesson_two.number}") }
   end
 
-  scenario "Follow Lesson 1" do
-    visit lessons_all_path
+  feature "Follow Lesson 1" do
+    before do
+      visit lessons_all_path
+      click_link "Lesson #{lesson_one.number}"
+    end
 
-    click_link "Lesson #{lesson_one.number}"
-    expect(page.current_url).to eql(lesson_url(lesson_one.number))
+    scenario { expect(page.current_url).to eql(lesson_url(lesson_one.number)) }
   end
 
-  scenario "Follow Translate Me Game" do
-    visit lessons_all_path
+  feature "Follow Translate Me Game" do
+    before do
+      visit lessons_all_path
+      first(:link, "Translate Me Game").click
+    end
 
-    first(:link, "Translate Me Game").click
-    expect(page.current_url).to eql(translate_me_url(lesson_one.number))
+    scenario { expect(page.current_url).to eql(translate_me_url(lesson_one.number)) }
   end
 
-  scenario "Follow Translate Me Game on Lesson 1" do
-    visit lesson_path(lesson_one.number)
+  feature "Follow Translate Me Game on Lesson 1" do
+    before do
+      visit lesson_path(lesson_one.number)
+      click_link "Translate Me Game"
+    end
 
-    click_link "Translate Me Game"
-    expect(page.current_url).to eql(translate_me_url(lesson_one.number))
+    scenario { expect(page.current_url).to eql(translate_me_url(lesson_one.number)) }
   end
 
-  scenario "Follow All Lessons" do
-    visit lesson_path(lesson_one.number)
+  feature "Follow All Lessons" do
+    before do
+      visit lesson_path(lesson_one.number)
+      click_link "All Lessons"
+    end
 
-    click_link "All Lessons"
-    expect(page.current_url).to eql(lessons_all_url)
+    scenario { expect(page.current_url).to eql(lessons_all_url) }
   end
 end

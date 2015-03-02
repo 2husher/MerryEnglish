@@ -1,6 +1,8 @@
 require 'spec_helper'
 
 feature 'Viewing Dictionary' do
+  subject { page }
+
   given!(:dictionary) { FactoryGirl.create(:dictionary) }
 
   given!(:lesson_one) { FactoryGirl.create(:lesson, number: 1) }
@@ -19,91 +21,94 @@ feature 'Viewing Dictionary' do
                                 sentence: "His swimming abilities let him cross the entire lake.",
                                 letter: a, lesson: lesson_one, part_of_speech: noun) }
 
-  before :each do
-    ('C'..'Z').each do |l|
-      FactoryGirl.create(:letter, name: l, dictionary: dictionary)
+
+  feature "Dictionary all path" do
+    before do
+      visit dictionary_all_path
     end
 
-    pos_hash = { "verb" => "V", "adverb" => "ADV", "conjunction" => "CONJ", "preposition" => "PREP"}
-    pos_hash.each do |n, acr|
-      FactoryGirl.create(:part_of_speech, name: n, acronym: acr)
-    end
-  end
+    scenario { should have_title("MerryEnglish") }
 
-  scenario "Dictionary all path" do
-    visit dictionary_all_path
+    scenario { should have_content("Dictionary") }
+    scenario { should have_content("Lessons") }
+    scenario { should have_content("Translate Me") }
 
-    expect(page).to have_title("MerryEnglish")
-
-    expect(page).to have_content("Dictionary")
-    expect(page).to have_content("Lessons")
-    expect(page).to have_content("Translate Me")
-
-    expect(page).to have_content("Dictionary")
-    expect(page).to have_content("All Letters A B C D E F G H I J K L M N O P Q R S T U V W X Y Z ")
-    expect(page).to have_content("noun | adjective | verb | adverb | conjunction | preposition |")
-    expect(page).to have_content("Index")
+    scenario { should have_content("Dictionary") }
+    scenario { should have_content("All Letters A B") }
+    scenario { should have_content("noun | adjective") }
+    scenario { should have_content("Index") }
 
     #FIXME: порядок следования слов по алфавиту
-    expect(page).to have_content("bare")
-    expect(page).to have_content("босые")
-    expect(page).to have_content("ADJ")
-    expect(page).to have_content("He likes to walk around in his bare feet.")
+    scenario { should have_content("bare") }
+    scenario { should have_content("босые") }
+    scenario { should have_content("ADJ") }
+    scenario { should have_content("He likes to walk around in his bare feet.") }
 
-    expect(page).to have_content("ability")
-    expect(page).to have_content("способность")
-    expect(page).to have_content("N")
-    expect(page).to have_content("His swimming abilities let him cross the entire lake.")
+    scenario { should have_content("ability") }
+    scenario { should have_content("способность") }
+    scenario { should have_content("N") }
+    scenario { should have_content("His swimming abilities let him cross the entire lake.") }
 
-    expect(page).to have_content("2015 by Alex Izotov (izotovalexander@gmail.com)")
+    scenario { should have_content("2015 by Alex Izotov (izotovalexander@gmail.com)") }
   end
 
-  scenario "Dictionary path" do
-    visit dictionary_path(a.name)
+  feature "Dictionary path" do
+    before do
+      visit dictionary_path(a.name)
+    end
 
-    expect(page).not_to have_content("bare")
-    expect(page).not_to have_content("босые")
-    expect(page).not_to have_content("ADJ")
-    expect(page).not_to have_content("He likes to walk around in his bare feet.")
+    scenario { should_not have_content("bare") }
+    scenario { should_not have_content("босые") }
+    scenario { should_not have_content("ADJ") }
+    scenario { should_not have_content("He likes to walk around in his bare feet.") }
 
-    expect(page).to have_content("ability")
-    expect(page).to have_content("способность")
-    expect(page).to have_content("N")
-    expect(page).to have_content("His swimming abilities let him cross the entire lake.")
+    scenario { should have_content("ability") }
+    scenario { should have_content("способность") }
+    scenario { should have_content("N") }
+    scenario { should have_content("His swimming abilities let him cross the entire lake.") }
   end
 
-  scenario "Part of speech path" do
-    visit part_of_speech_path(noun.name)
+  feature "Part of speech path" do
+    before do
+      visit part_of_speech_path(noun.name)
+    end
 
-    expect(page).not_to have_content("bare")
-    expect(page).not_to have_content("босые")
-    expect(page).not_to have_content("ADJ")
-    expect(page).not_to have_content("He likes to walk around in his bare feet.")
+    scenario { should_not have_content("bare") }
+    scenario { should_not have_content("босые") }
+    scenario { should_not have_content("ADJ") }
+    scenario { should_not have_content("He likes to walk around in his bare feet.") }
 
-    expect(page).to have_content("ability")
-    expect(page).to have_content("способность")
-    expect(page).to have_content("N")
-    expect(page).to have_content("His swimming abilities let him cross the entire lake.")
+    scenario { should have_content("ability") }
+    scenario { should have_content("способность") }
+    scenario { should have_content("N") }
+    scenario { should have_content("His swimming abilities let him cross the entire lake.") }
   end
 
-  scenario "Follow A" do
-    visit dictionary_all_path
+  feature "Follow A" do
+    before do
+      visit dictionary_all_path
+      click_link "A"
+    end
 
-    click_link "A"
-    expect(page.current_url).to eql(dictionary_url(a.name))
+    scenario { expect(page.current_url).to eql(dictionary_url(a.name)) }
   end
 
-  scenario "Follow noun" do
-    visit dictionary_all_path
+  feature "Follow noun" do
+    before do
+      visit dictionary_all_path
+      click_link "noun"
+    end
     #FIXME: N for noun and N for N link
 
-    click_link "noun"
+    scenario { expect(page.current_url).to eql(part_of_speech_url(noun.name)) }
   end
 
-  scenario "Follow All Letters" do
-    visit dictionary_path(a.name)
+  feature "Follow All Letters" do
+    before do
+      visit dictionary_path(a.name)
+      click_link "All Letters"
+    end
 
-    click_link "All Letters"
-    expect(page.current_url).to eql(dictionary_all_url)
+    scenario { expect(page.current_url).to eql(dictionary_all_url) }
   end
 end
