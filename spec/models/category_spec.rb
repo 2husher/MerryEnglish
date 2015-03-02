@@ -1,6 +1,6 @@
 # == Schema Information
 #
-# Table name: letters
+# Table name: categories
 #
 #  id         :integer          not null, primary key
 #  name       :string
@@ -8,8 +8,8 @@
 #  updated_at :datetime         not null
 #
 
-class Letter < ActiveRecord::Base
-  has_many :entities
+require 'spec_helper'
 
-  validates :name, presence: true
+describe Category do
+  pending "add some examples to (or delete) #{__FILE__}"
 end

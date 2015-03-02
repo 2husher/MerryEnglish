@@ -2,14 +2,11 @@
 #
 # Table name: lessons
 #
-#  id         :integer          not null, primary key
-#  number     :integer
-#  created_at :datetime         not null
-#  updated_at :datetime         not null
-#
-# Indexes
-#
-#  index_lessons_on_number  (number)
+#  id          :integer          not null, primary key
+#  number      :integer
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#  category_id :integer
 #
 
 class Lesson < ActiveRecord::Base

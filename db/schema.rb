@@ -11,12 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150225211008) do
+ActiveRecord::Schema.define(version: 20150302104615) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "dictionaries", force: :cascade do |t|
+  create_table "categories", force: :cascade do |t|
+    t.string   "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -34,17 +35,15 @@ ActiveRecord::Schema.define(version: 20150225211008) do
 
   create_table "lessons", force: :cascade do |t|
     t.integer  "number"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+    t.integer  "category_id"
   end
-
-  add_index "lessons", ["number"], name: "index_lessons_on_number", using: :btree
 
   create_table "letters", force: :cascade do |t|
     t.string   "name"
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
-    t.integer  "dictionary_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "part_of_speeches", force: :cascade do |t|

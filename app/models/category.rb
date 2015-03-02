@@ -1,6 +1,6 @@
 # == Schema Information
 #
-# Table name: letters
+# Table name: categories
 #
 #  id         :integer          not null, primary key
 #  name       :string
@@ -8,8 +8,9 @@
 #  updated_at :datetime         not null
 #
 
-class Letter < ActiveRecord::Base
-  has_many :entities
+class Category < ActiveRecord::Base
+  has_many :lessons
+  has_many :entities, through: :lessons
 
   validates :name, presence: true
 end
