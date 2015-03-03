@@ -16,8 +16,13 @@ Rails.application.routes.draw do
     end
   end
 
-  get 'dictionary/all_words' => 'dictionary#all_words', as: :dictionary_all
+  get 'next_lesson/:category_id/:lesson_number' => 'change_lesson#next', as: :next_lesson
+  get 'previous_lesson/:category_id/:lesson_number' => 'change_lesson#previous', as: :previous_lesson
 
+  get 'next_translate_me/:category_id/:lesson_number' => 'change_translate_me#next', as: :next_translate_me
+  get 'previous_translate_me/:category_id/:lesson_number' => 'change_translate_me#previous', as: :previous_translate_me
+
+  get 'dictionary/all_words' => 'dictionary#all_words', as: :dictionary_all
   get 'dictionary/:letter' => 'dictionary#all_letters', as: :dictionary
 
   get 'part_of_speech/:part_of_speech' => 'dictionary#all_part_of_speech', as: :part_of_speech

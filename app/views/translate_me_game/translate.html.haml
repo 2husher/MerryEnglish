@@ -1,3 +1,8 @@
+- unless first_lesson?(@category, @lesson.number)
+  = link_to 'Previous', previous_translate_me_path(@category, @lesson.number)
+- unless last_lesson?(@category, @lesson.number)
+  = link_to 'Next', next_translate_me_path(@category, @lesson.number)
+
 %h3
   = link_to "Game", translate_me_category_path(@category, @lesson.number)
   for
