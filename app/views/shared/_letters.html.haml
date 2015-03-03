@@ -1,4 +1,7 @@
-= link_to 'All Letters', dictionary_all_category_path(@category)
+- if @category.present?
+  = link_to 'All Letters', dictionary_all_category_path(@category)
+- else
+  = link_to 'All Letters', dictionary_all_path
 - Letter.all.each do |l|
   - if @category.present?
     = link_to l.name, dictionary_category_path(@category, l.name)
