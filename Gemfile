@@ -19,6 +19,9 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'unicorn'
+gem 'unicorn-rails'
+
 group :test do
   gem 'capybara', '~> 2.2.1'
   gem 'factory_girl_rails'
@@ -50,7 +53,6 @@ end
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Unicorn as the app server
-# gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
