@@ -1,4 +1,8 @@
-= link_to "Lesson #{lesson.number}", lesson_category_path(@category, lesson.number)
-&lt;#{link_to 'Translate Me Game', translate_me_category_path(@category, lesson.number)}&gt;
-- lesson.entities.each do |e|
-  %i= e.word
+.lesson
+  %span.lesson_num
+    = link_to "Lesson #{lesson.number}", lesson_category_path(@category, lesson.number)
+  %span.translate_me
+    &lt;#{link_to 'Translate Me Game', translate_me_category_path(@category, lesson.number)}&gt;
+  %span.words
+  - lesson.entities.each do |e|
+    %span.word= e.word

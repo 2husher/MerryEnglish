@@ -1,14 +1,20 @@
-- if @category.present?
-  = link_to 'All Letters', dictionary_all_category_path(@category)
-- else
-  = link_to 'All Letters', dictionary_all_path
-- Letter.all.each do |l|
+%center
+  %span#all_letters
   - if @category.present?
-    = link_to l.name, dictionary_category_path(@category, l.name)
+    = link_to 'All Letters', dictionary_all_category_path(@category)
   - else
-    = link_to l.name, dictionary_path(l.name)
-- PartOfSpeech.all.each do |pos|
-  - if @category.present?
-    = link_to pos.name, part_of_speech_category_path(@category, pos.name)
-  - else
-    = link_to pos.name, part_of_speech_path(pos.name)
+    = link_to 'All Letters', dictionary_all_path
+
+  - Letter.all.each do |l|
+    - if @category.present?
+      = link_to l.name, dictionary_category_path(@category, l.name)
+    - else
+      = link_to l.name, dictionary_path(l.name)
+
+%center
+  %span#part_of_speech
+  - PartOfSpeech.all.each do |pos|
+    - if @category.present?
+      = link_to pos.name, part_of_speech_category_path(@category, pos.name)
+    - else
+      = link_to pos.name, part_of_speech_path(pos.name)

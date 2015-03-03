@@ -1,22 +1,63 @@
 @import "bootstrap";
 
+//$light-blue-color: #6495ED;
+$light-blue-color: #87CEFA;
+
 body {
   padding-top: 50px;
 }
 
 .container{
   max-width: 600px;
-  padding: 0px 30px;
 }
 
-hr {
-    border: none;
-    height: 1px;
-    //color: #333; /* old IE */
-    background-color: #333; /* Modern Browsers */
+.entity {
+  padding: 10px 20px;
+  border-bottom: solid $light-blue-color;
+  .word {
+    font-weight: bold;
+  }
+  .part_of_speech {
+    font-style: italic;
+  }
+  .translation {
+    display: block;
+  }
+  .sentence {
+    font-style: italic;
+    display: block;
+  }
 }
 
-/*logo{
-  float: left;
+.lesson {
+  padding: 10px 20px;
+  border-bottom: solid $light-blue-color;
+  .lesson_num {
+
+  }
+  .translate_me {
+
+  }
+  .words {
+    display: block;
+  }
+  .word {
+    font-style: italic;
+  }
 }
-*/
+
+#all_letters {
+  display: block;
+}
+
+#part_of_speech {
+  display: block;
+
+}
+
+
+
+footer {
+  padding: 30px 0px;
+  font-style: italic;
+}

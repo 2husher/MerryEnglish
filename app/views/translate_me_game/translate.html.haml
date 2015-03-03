@@ -4,11 +4,12 @@
   = link_to "Lesson #{@lesson.number}", lesson_category_path(@category, @lesson.number)
 
 - @entities_array.each do |e|
-  %b= e[0]
-  %span.translation{style: 'display: none;'}
-    = e[1]
-  %span.sentence{style: 'display: none;'}
-    %i= e[2]
+  .entity
+    %span.word= e[0]
+    %span.translation{style: 'display: none;'}
+      = e[1]
+    %span.sentence{style: 'display: none;'}
+      = e[2]
 
 %button{id: 'translate_me', type:"button", class:"btn btn-danger"} Translate!
 %button{id: 'show_sentence', type:"button", class:"btn btn-success"} Sentence

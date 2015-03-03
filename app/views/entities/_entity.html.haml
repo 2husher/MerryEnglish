@@ -1,5 +1,5 @@
-%p
-  %b= entity.word
-  %i= entity.part_of_speech.acronym
-  = entity.translation
-  %i= entity.sentence
+.entity
+  %span.word= entity.word
+  %span.part_of_speech= entity.part_of_speech.acronym
+  %span.translation= entity.translation
+  %span.sentence= entity.sentence
