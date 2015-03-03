@@ -962,7 +962,7 @@ Begin Lesson 5 Category Second 600 Words
 
 аллея [N] alley [] The alley behind my house looks dirty.
 топор [N] ax [] She used an ax to cut some wood for the fire.
-связка [N] bunch []She was hungry, so she ate the entire bunch of grapes.
+связка [N] bunch [] She was hungry, so she ate the entire bunch of grapes.
 рутина, поденная работа [N] chore [] It’s Nikki’s chore to do the dishes every Tuesday and Wednesday night.
 приличный, порядочный [ADJ] decent [] Eric did a decent job painting the fence.
 позор [N] disgrace [] He felt a sense of disgrace after failing his big exam.
