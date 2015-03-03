@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
+'ruby', '2.0.0'
 
-#gem 'ruby', '2.0.0'
 gem 'annotate'
 gem 'haml-rails'
 gem 'html2haml'
