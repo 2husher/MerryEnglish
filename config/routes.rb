@@ -8,24 +8,24 @@ Rails.application.routes.draw do
     member do
       get 'lessons/all'
       get 'lessons/:number', to: 'lessons#show', as: :lesson
-      get 'translate_me/all' => 'translate_me_game#all', as: :translate_me_all
-      get 'translate_me/:lesson_number' => 'translate_me_game#translate', as: :translate_me
+      get 'translate_me/all', to: 'translate_me_game#all', as: :translate_me_all
+      get 'translate_me/:lesson_number', to: 'translate_me_game#translate', as: :translate_me
       get 'dictionary/all'
-      get 'dictionary/:letter' => 'dictionary#letter', as: :dictionary
-      get 'part_of_speech/:part_of_speech' => 'dictionary#part_of_speech', as: :part_of_speech
+      get 'dictionary/:letter', to: 'dictionary#letter', as: :dictionary
+      get 'part_of_speech/:part_of_speech', to: 'dictionary#part_of_speech', as: :part_of_speech
     end
   end
 
-  get 'next_lesson/:category_id/:lesson_number' => 'change_lesson#next', as: :next_lesson
-  get 'previous_lesson/:category_id/:lesson_number' => 'change_lesson#previous', as: :previous_lesson
+  get 'next_lesson/:category_id/:lesson_number', to: 'change_lesson#next', as: :next_lesson
+  get 'previous_lesson/:category_id/:lesson_number', to: 'change_lesson#previous', as: :previous_lesson
 
-  get 'next_translate_me/:category_id/:lesson_number' => 'change_translate_me#next', as: :next_translate_me
-  get 'previous_translate_me/:category_id/:lesson_number' => 'change_translate_me#previous', as: :previous_translate_me
+  get 'next_translate_me/:category_id/:lesson_number', to: 'change_translate_me#next', as: :next_translate_me
+  get 'previous_translate_me/:category_id/:lesson_number', to: 'change_translate_me#previous', as: :previous_translate_me
 
-  get 'dictionary/all_words' => 'dictionary#all_words', as: :dictionary_all
-  get 'dictionary/:letter' => 'dictionary#all_letters', as: :dictionary
+  get 'dictionary/all_words', to: 'dictionary#all_words', as: :dictionary_all
+  get 'dictionary/:letter', to: 'dictionary#all_letters', as: :dictionary
 
-  get 'part_of_speech/:part_of_speech' => 'dictionary#all_part_of_speech', as: :part_of_speech
+  get 'part_of_speech/:part_of_speech', to: 'dictionary#all_part_of_speech', as: :part_of_speech
 
   #get 'lessons/all' => 'lessons#all', as: :lessons_all
 
