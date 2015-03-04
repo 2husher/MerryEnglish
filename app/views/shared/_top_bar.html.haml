@@ -1,9 +1,18 @@
 - if params[:controller] == 'dictionary'
-  %h1 Words
+  %h1
+    Words
+    - if @entities.count > 2
+      #{@entities.first.word} - #{@entities.last.word}
   = render 'shared/letters'
 - elsif params[:controller] == 'lessons'
-  %h1 Lessons
+  %h1
+    Lessons
+    - if @lessons.count > 2
+      #{@lessons.first.number} - #{@lessons.last.number}
   = render 'shared/lessons'
 - elsif params[:controller] == 'translate_me_game'
-  %h1 Translate Me
+  %h1
+    Translate Me
+    - if @lessons.count > 2
+      #{@lessons.first.number} - #{@lessons.last.number}
   = render 'shared/games'
