@@ -1,8 +1,9 @@
-- if params[:controller] == 'lessons'
-  %b Lessons:
-  - @all_lessons.each do |l|
-    = link_to l.number, lesson_category_path(@category, l.number)
-- elsif params[:controller] == 'translate_me_game'
-  %b Games:
-  - @all_lessons.each do |l|
-    = link_to l.number, translate_me_category_path(@category, l.number)
+%span#bottom_bar
+  - if params[:controller] == 'lessons'
+    %b Lessons:
+    - @all_lessons.each do |l|
+      = link_to l.number, lesson_category_path(@category, l.number)
+  - elsif params[:controller] == 'translate_me_game'
+    %b Games:
+    - @all_lessons.each do |l|
+      = link_to l.number, translate_me_category_path(@category, l.number)

@@ -1,7 +1,7 @@
 - if params[:controller] == 'dictionary'
   %h1
     Words
-    - if !@entities.nil? @entities.count > 2
+    - if !@entities.nil? && @entities.count > 2
       #{@entities.first.word} - #{@entities.last.word}
   = render 'shared/letters'
 - elsif params[:controller] == 'lessons'

@@ -42,4 +42,8 @@ class DictionaryController < ApplicationController
     @part_of_speech = PartOfSpeech.find_by(name: params[:part_of_speech])
     @entities       = @part_of_speech.entities.paginate(page: params[:page], per_page: 10)
   end
+
+  def word
+    @entity = Entity.find_by(word: params[:word])
+  end
 end

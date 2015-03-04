@@ -27,6 +27,8 @@ Rails.application.routes.draw do
 
   get 'part_of_speech/:part_of_speech', to: 'dictionary#all_part_of_speech', as: :part_of_speech
 
+  get 'word/:word', to: 'dictionary#word', as: :word
+
   #get 'lessons/all' => 'lessons#all', as: :lessons_all
 
   #get 'lessons/:number' => 'lessons#number', as: :lesson
