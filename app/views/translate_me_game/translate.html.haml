@@ -8,8 +8,9 @@
   for
   = link_to "Lesson #{@lesson.number}", lesson_category_path(@category, @lesson.number)
 
+
 - @entities_array.each do |e|
-  .entity
+  %div{class: "entity #{cycle('line_odd', 'line_even')}" }
     %span.word= e[0]
     %span.translation{style: 'display: none;'}
       = e[1]

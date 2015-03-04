@@ -1,8 +1,5 @@
 @import "bootstrap";
 
-//$light-blue-color: #6495ED;
-$light-blue-color: #87CEFA;
-
 body {
   padding-top: 50px;
 }
@@ -13,7 +10,6 @@ body {
 
 .entity {
   padding: 10px 20px;
-  border-bottom: solid $light-blue-color;
   .word {
     font-weight: bold;
   }
@@ -31,7 +27,6 @@ body {
 
 .lesson {
   padding: 10px 20px;
-  border-bottom: solid $light-blue-color;
   .lesson_num {
 
   }
@@ -55,6 +50,9 @@ body {
 
 }
 
+.line_odd {
+  background-color: #DCDCDC;
+}
 
 
 footer {
