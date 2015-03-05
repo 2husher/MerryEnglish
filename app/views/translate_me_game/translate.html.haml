@@ -8,6 +8,10 @@
   for
   = link_to "Lesson #{@lesson.number}", lesson_category_path(@category, @lesson.number)
 
+%button{id: 'all_at_once', type:"button", class:"btn"} All At Once
+%button{id: 'by_one', type:"button", class:"btn"} By One
+%button{id: 'next_one', type:"button", class:"btn", style: "display: none;"} Next One
+%hr
 
 - @entities_array.each do |e|
   %div{class: "entity #{cycle('line_odd', 'line_even')}" }
@@ -17,5 +21,6 @@
     %span.sentence{style: 'display: none;'}
       = e[2]
 
+%hr
 %button{id: 'translate_me', type:"button", class:"btn btn-danger"} Translate!
 %button{id: 'show_sentence', type:"button", class:"btn btn-success"} Sentence
