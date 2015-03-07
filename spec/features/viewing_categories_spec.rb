@@ -11,6 +11,13 @@ feature 'Viewing Categories' do
     end
 
     scenario { should have_link 'First 600 Words' }
+
+    scenario { should have_link 'Categories' }
+    scenario { should have_link 'All Words' }
+
+    scenario { should have_no_link 'Words', href: dictionary_all_category_url(category) }
+    scenario { should have_no_link 'Lessons' }
+    scenario { should have_no_link 'Translate Me' }
   end
 
   feature "Follow Categories" do
