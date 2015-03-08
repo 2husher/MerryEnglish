@@ -1048,3 +1048,63 @@ Begin Lesson 10 Category Second 600 Words
 
 End Lesson 10
 ############################################################
+Begin Lesson 1 Category Twilight. Phenomenon
+
+прикрывать, скрывать [V] veil [вЕил] I realized there was no fog veiling my window.
+стонать [V] groan [] I jumped up to look outside, and then groaned in horror.
+покрывать [V] coat [] All the rain from yesterday had frozen solid — coating the needles on the trees in fantastic, gorgeous patterns, and making the driveway a deadly ice slick.
+прекрасный, великолепный [ADJ] gorgeous [гООджэс] All the rain from yesterday had frozen solid — coating the needles on the trees in fantastic, gorgeous patterns, and making the driveway a deadly ice slick.
+пленка, гладкая полоса [N] slick [] All the rain from yesterday had frozen solid — coating the needles on the trees in fantastic, gorgeous patterns, and making the driveway a deadly ice slick.
+наслаждаться, упиваться [V] revel [рЭвел] I found myself reveling in the aloneness instead of being lonely.
+возбужать, волновать [V] excite [] I felt excited to go to school.
+предвидеть, ожидать [V] anticipate [] I knew it wasn't the stimulating learning environment I was anticipating.
+смущать, стеснять [V] embarrass [имбАрэс] I should be avoiding him entirely after my brainless and embarrassing babbling yesterday
+враждебность [N] hostility [] I was still frightened of the hostility I sometimes felt emanating from him.
+
+End Lesson 1
+############################################################
+Begin Lesson 2 Category Twilight. Phenomenon
+
+исходить [V] emanate [Эмэнейт] I was still frightened of the hostility I sometimes felt emanating from him.
+унция, капля [N] ounce [аунс] It took every ounce of my concentration to make it down the icy brick driveway alive.
+цепляться [V] cling [клин] I managed to cling to the side mirror and save myself.
+предположение [N] speculation [] I distracted myself from my fear of falling and my unwanted speculations about Edward Cullen.
+реагировать [V] respond [] The obvious difference in how teenage boys responded to me here.
+подростковый возраст [N] adolescence [адолЕсэнс] Maybe it was just that the boys back home had watched me pass slowly through all the awkward phases of adolescence.
+новинка [N] novelty [] Perhaps it was because I was a novelty here.
+редкие [ADJ] few and far between [] Where novelties were few and far between.
+искалечить [V] cripple [] Possibly my crippling clumsiness was seen as endearing rather than pathetic, casting me as a damsel in distress.
+неуклюжесть [N] clumsiness [кламзИнес] Possibly my crippling clumsiness was seen as endearing rather than pathetic, casting me as a damsel in distress.
+
+End Lesson 2
+############################################################
+Begin Lesson 3 Category Twilight. Phenomenon
+
+привлекательный, милый [ADJ] endearing [эндИэрин] Possibly my crippling clumsiness was seen as endearing rather than pathetic, casting me as a damsel in distress.
+жалкий [ADJ] pathetic [] Possibly my crippling clumsiness was seen as endearing rather than pathetic, casting me as a damsel in distress.
+распределять роли [V] cast [] Possibly my crippling clumsiness was seen as endearing rather than pathetic, casting me as a damsel in distress.
+девица [N] damsel [дАмзэл] Possibly my crippling clumsiness was seen as endearing rather than pathetic, casting me as a damsel in distress.
+бедствие, горе [N] distress [] Possibly my crippling clumsiness was seen as endearing rather than pathetic, casting me as a damsel in distress.
+очевидный [ADJ] apparent [] Eric's apparent rivalry with him were disconcerting.
+соперничество [N] rivalry [рАйвэлри] Eric's apparent rivalry with him were disconcerting.
+смущать, приводить в замешательство [V] disconcert [дисконс3т] Eric's apparent rivalry with him were disconcerting.
+забота [N] concern [] Charlie's unspoken concern caught me by surprise.
+высокий, пронзительный [ADJ] high-pitched [] It was a high-pitched screech.
+
+End Lesson 3
+############################################################
+Begin Lesson 4 Category Twilight. Phenomenon
+
+визг [N] screech [] It was a high-pitched screech.
+напугать [V] startle [] I looked up, startled.
+заносить, буксовать [V] skid [] But of more immediate importance was the dark blue van that was skidding.
+визжать [V] squeal [] But of more immediate importance was the dark blue van that was skidding, tires locked and squealing against the brakes.
+тормоз [N] brake [] But of more immediate importance was the dark blue van that was skidding, tires locked and squealing against the brakes.
+разбивать вдребезги [V] shatter [шАтэ] Just before I heard the shattering crunch of the van folding around the truck bed.
+хруст, треск [N] crunch [] Just before I heard the shattering crunch of the van folding around the truck bed.
+сгибать, складывать [V] fold [] Just before I heard the shattering crunch of the van folding around the truck bed.
+кузов [N] truck bed [] Just before I heard the shattering crunch of the van folding around the truck bed.
+трескаться [V] crack [] My head cracked against the icy blacktop.
+
+End Lesson 4
+############################################################
