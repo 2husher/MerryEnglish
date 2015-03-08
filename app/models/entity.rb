@@ -24,7 +24,7 @@ class Entity < ActiveRecord::Base
 
   validates :lesson_id, presence: true
   validates :part_of_speech_id, presence: true
-  validates :lesson_id, presence: true
+  validates :letter_id, presence: true
 
   default_scope { order('word') }
 end

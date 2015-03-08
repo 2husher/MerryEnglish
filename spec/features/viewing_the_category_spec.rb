@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-feature 'Viewing All Words' do
+feature 'Viewing First 600 Words' do
   subject { page }
 
   given!(:category) { FactoryGirl.create(:category) }
@@ -23,29 +23,28 @@ feature 'Viewing All Words' do
                                 letter: a, lesson: lesson_one, part_of_speech: noun) }
 
 
-  feature "All Words path" do
+  feature "Words path" do
     before do
-      visit dictionary_all_path
+      visit dictionary_all_category_path(category)
     end
 
-    scenario { should have_link 'Categories' }
-    scenario { should have_link 'All Words' }
+    scenario { should have_no_link 'All Words' }
 
-    scenario { should have_no_link 'Words', href: dictionary_all_category_url(category) }
-    scenario { should have_no_link 'Lessons' }
-    scenario { should have_no_link 'Translate Me' }
+    scenario { should have_link 'Words', href: dictionary_all_category_path(category) }
+    scenario { should have_link 'Lessons' }
+    scenario { should have_link 'Translate Me' }
 
     scenario { should have_content("Words #{first_word.word} - #{second_word.word}") }
     scenario { should have_link("All Letters") }
-    scenario { should have_link("A", href: dictionary_path(a.name)) }
-    scenario { should have_link("B", href: dictionary_path(b.name)) }
+    scenario { should have_link("A", href: dictionary_category_path(category, a.name)) }
+    scenario { should have_link("B", href: dictionary_category_path(category, b.name)) }
     scenario { should have_link("noun") }
     scenario { should have_link("adjective") }
   end
 
   feature "Letter A path" do
     before do
-      visit dictionary_path(a.name)
+      visit dictionary_category_path(category, a.name)
     end
 
     scenario { should have_content("ability") }
@@ -56,7 +55,7 @@ feature 'Viewing All Words' do
 
   feature "Adjective path" do
     before do
-      visit part_of_speech_path(adj.name)
+      visit part_of_speech_category_path(category, adj.name)
     end
 
     scenario { should have_content("bare") }
@@ -67,28 +66,28 @@ feature 'Viewing All Words' do
 
   feature "Follow A" do
     before do
-      visit dictionary_all_path
+      visit dictionary_all_category_path(category)
       click_link "A"
     end
 
-    scenario { expect(page.current_url).to eql(dictionary_url(a.name)) }
+    scenario { expect(page.current_url).to eql(dictionary_category_url(category, a.name)) }
   end
 
   feature "Follow noun" do
     before do
-      visit dictionary_all_path
+      visit dictionary_all_category_path(category)
       click_link "noun"
     end
 
-    scenario { expect(page.current_url).to eql(part_of_speech_url(noun.name)) }
+    scenario { expect(page.current_url).to eql(part_of_speech_category_url(category, noun.name)) }
   end
 
   feature "Follow All Letters" do
     before do
-      visit dictionary_path(a.name)
+      visit dictionary_category_path(category, a.name)
       click_link "All Letters"
     end
 
-    scenario { expect(page.current_url).to eql(dictionary_all_url) }
+    scenario { expect(page.current_url).to eql(dictionary_all_category_url(category)) }
   end
 end

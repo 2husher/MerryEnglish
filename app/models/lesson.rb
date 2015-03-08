@@ -11,6 +11,8 @@
 
 class Lesson < ActiveRecord::Base
   has_many :entities
+  belongs_to :category
 
   validates :number, presence: true#, uniqueness: true
+  validates :category_id, presence: true
 end
