@@ -16,7 +16,9 @@ Rails.application.routes.draw do
     end
   end
 
-  get 'search', to: 'search#find_words', as: :search
+  get 'search', to: 'search#find_words'
+
+  get 'search_autocomplete', to: 'search#autocomplete_entity_word'
 
   get 'next_lesson/:category_id/:lesson_number', to: 'change_lesson#next', as: :next_lesson
   get 'previous_lesson/:category_id/:lesson_number', to: 'change_lesson#previous', as: :previous_lesson

@@ -1,7 +1,35 @@
 @import "bootstrap";
 
+$green-color: #008000;
+$pale-green-color: #98FB98;
+$dark-golden-rod-color: #B8860B;
+$khaki-color: #F0E68C;
+$salmon-color: #FA8072;
+$dark-red-color: #8B0000;
+
 body {
   padding-top: 50px;
+}
+
+.notice{
+  border: solid $green-color;
+  background-color: $pale-green-color;
+  text-align: center;
+  color: $green-color;
+}
+
+.alert{
+  border: solid $dark-golden-rod-color;
+  background-color: $khaki-color;
+  text-align: center;
+  color: $dark-golden-rod-color;
+}
+
+.error{
+  border: solid $dark-red-color;
+  background-color: $salmon-color;
+  text-align: center;
+  color: $dark-red-color;
 }
 
 .container{

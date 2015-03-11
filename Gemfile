@@ -23,6 +23,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'unicorn'
 gem 'unicorn-rails'
 
+gem 'rails4-autocomplete'
+
 group :test do
   gem 'capybara', '~> 2.2.1'
   gem 'factory_girl_rails'
