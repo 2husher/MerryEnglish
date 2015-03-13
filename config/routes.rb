@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   root "categories#index"
 
   # get 'categories/all' => 'categories#all', as: :categories_all
