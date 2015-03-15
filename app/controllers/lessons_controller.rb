@@ -4,14 +4,17 @@ class LessonsController < ApplicationController
     #@lessons  = @category.lessons.includes(:entities).all
     @all_lessons = @category.lessons.all
     @lessons     = @all_lessons.paginate(page: params[:page], per_page: 10)
-    @lesson      = @category.lessons.new
+    @new_lesson      = @category.lessons.new
   end
 
   def show
     @category = Category.find(params[:category_id])
     @all_lessons = @category.lessons.all
     @lesson      = @all_lessons.find(params[:id])
-    @entities = @lesson.entities
+    # without all @entities processed at form and include nill new entity
+    @entities = @lesson.entities.all
+    @new_lesson      = @category.lessons.new
+    @new_entity      = @entities.new
   end
 
   def create

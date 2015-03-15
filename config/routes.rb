@@ -16,6 +16,10 @@ Rails.application.routes.draw do
     end
   end
 
+  resources :lessons do
+    resources :entities
+  end
+
   get 'search', to: 'search#find_words'
 
   get 'search_autocomplete', to: 'search#autocomplete_entity_word'

@@ -1,0 +1,19 @@
+
+= form_for [@lesson, @new_entity] do |f|
+  = render partial: 'shared/errors', locals: { object: f.object }
+  %table
+    %tr
+      %td= f.label :word
+      %td= f.text_field :word
+    %tr
+      %td= f.label :part_of_speech
+      %td= collection_select(:pos, :part_of_speech, PartOfSpeech.all, :name, :name, prompt: true)
+    %tr
+      %td= f.label :translation
+      %td= f.text_field :translation
+    %tr
+      %td= f.label :sentence
+      %td= f.text_area :sentence
+
+  .actions
+    = f.submit @new_entity.new_record? ? 'Create Word' : 'Update Word'
