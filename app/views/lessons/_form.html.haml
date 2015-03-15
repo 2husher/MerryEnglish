@@ -1,0 +1,7 @@
+= form_for [@category, @lesson] do |f|
+  .field
+    = f.label :number
+    = f.text_field :number, value: lesson_number
+  .actions
+    = f.submit @lesson.new_record? ? 'Create Lesson' : 'Update Lesson'
+

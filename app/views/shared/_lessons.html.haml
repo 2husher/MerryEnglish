@@ -1,3 +1,4 @@
 = link_to 'All Lessons', category_lessons_path(@category)
 - if user_signed_in?
-  = link_to new_category_lesson_path(@category, @category.lessons.build)
+  = link_to 'Add New Lesson', new_category_lesson_path(@category, @category.lessons.build)
+  = render 'lessons/new'
