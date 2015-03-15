@@ -11,8 +11,8 @@
           - if @category.present?
             %li= link_to 'Lessons', category_lessons_path(@category)
             %li= link_to 'Translate Me', translate_me_all_category_path(@category)
-          %li= link_to 'Sign up', new_user_registration_path
           - unless user_signed_in?
             %li= link_to 'Sign in', new_user_session_path
+            %li= link_to 'Sign up', new_user_registration_path
           - else
             %li= link_to 'Sign out', destroy_user_session_path, method: :delete
