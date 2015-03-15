@@ -1048,6 +1048,36 @@ Begin Lesson 10 Category Second 600 Words
 
 End Lesson 10
 ############################################################
+Begin Lesson 11 Category Second 600 Words
+
+предупреждать [V] alert [] The fire alarm alerted us that there was a problem.
+трансляция [N] broadcast [] We watched the broadcast of the local news on TV.
+сводка, бюллетень [N] bulletin [] There was a live bulletin reporting on the economy of the city.
+шишка [N] bump [] The monkey got a bump on his head because he was hit by a rock.
+нарезать, рубить [V] сhop [] Mom chopped some vegetables to put into the stew.
+чулан [N] closet [] Marie has many clothes inside of her closet.
+утешать [V] console [] When my dog ran away, my dad consoled me.
+район [N] distrikt [] I live in a residential district of Seattle, Washington.
+выдвижной ящик [N] drawer [] I put my clothes into the empty drawers.
+терпеть, выносить [V] endure [] She had to endure her husband shouting all day long.
+
+End Lesson 11
+############################################################
+Begin Lesson 12 Category Second 600 Words
+
+казнить [V] execute [] Some people are executed for serious crimes.
+захватывать, держать [V] grasp [] He grasped the bag of money tightly.
+задняя часть [N] rear [] The man loaded the rear of his truck with boxes.
+сенатор [N] senator [] The young senator promised to make laws that would help the people.
+череп [N] skull [] The brain is protected by the skull.
+размешивать [V] stir [] Mom stirred the batter until it was smooth.
+постукивать [V] tap [] He tapped the keys of the keyboard to write a short word.
+огромный [ADJ] tremendous [] The Earth’s oceans are filled with a tremendous amount of water.
+под [PREP] underneath [] The roots of a tree are located underneath the ground.
+червяк [N] worm [] Worms are often used to help catch fish.
+
+End Lesson 12
+############################################################
 Begin Lesson 1 Category Twilight. Phenomenon
 
 прикрывать, скрывать [V] veil [вЕил] I realized there was no fog veiling my window.
