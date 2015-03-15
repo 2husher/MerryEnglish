@@ -6,7 +6,7 @@
 %h3
   = link_to "Game", translate_me_category_path(@category, @lesson.number)
   for
-  = link_to "Lesson #{@lesson.number}", lesson_category_path(@category, @lesson.number)
+  = link_to "Lesson #{@lesson.number}", category_lesson_path(@category, @lesson)
 
 %button{id: 'all_at_once', type:"button", class:"btn"} All At Once
 %button{id: 'by_one', type:"button", class:"btn"} By One

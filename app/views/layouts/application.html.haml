@@ -9,11 +9,11 @@
   %body
     = render 'shared/header'
     .container
-      - if user_signed_in?
-        Signed in as #{current_user.email}
       = content_tag(:p, notice, class: 'notice') if notice.present?
       = content_tag(:p, alert, class: 'alert') if alert.present?
       = content_tag(:p, flash[:error], class: 'error') if flash[:error].present?
+      - if user_signed_in?
+        Signed in as #{current_user.email}
       = render 'shared/top_bar'
       = yield
       = render 'shared/bottom_bar'

@@ -2,7 +2,7 @@
   - if params[:controller] == 'lessons'
     %b Lessons:
     - @all_lessons.each do |l|
-      = link_to l.number, lesson_category_path(@category, l.number)
+      = link_to l.number, category_lesson_path(@category, l)
   - elsif params[:controller] == 'translate_me_game'
     %b Games:
     - @all_lessons.each do |l|
