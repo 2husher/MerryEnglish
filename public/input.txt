@@ -1054,7 +1054,7 @@ Begin Lesson 11 Category Second 600 Words
 трансляция [N] broadcast [] We watched the broadcast of the local news on TV.
 сводка, бюллетень [N] bulletin [] There was a live bulletin reporting on the economy of the city.
 шишка [N] bump [] The monkey got a bump on his head because he was hit by a rock.
-нарезать, рубить [V] сhop [] Mom chopped some vegetables to put into the stew.
+нарезать, рубить [V] chop [] Mom chopped some vegetables to put into the stew.
 чулан [N] closet [] Marie has many clothes inside of her closet.
 утешать [V] console [] When my dog ran away, my dad consoled me.
 район [N] distrikt [] I live in a residential district of Seattle, Washington.
