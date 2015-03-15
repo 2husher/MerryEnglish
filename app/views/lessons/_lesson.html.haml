@@ -1,6 +1,6 @@
 %div{class: "lesson #{cycle('line_odd', 'line_even')}" }
   %span.lesson_num
-    = link_to "Lesson #{lesson.number}", category_lesson_path(@category, lesson.number)
+    = link_to "Lesson #{lesson.number}", category_lesson_path(@category, lesson)
   %span.translate_me
     &lt;#{link_to 'Translate Me Game', translate_me_category_path(@category, lesson.number)}&gt;
   %span.words

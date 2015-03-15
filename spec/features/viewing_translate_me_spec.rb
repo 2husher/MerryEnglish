@@ -22,9 +22,9 @@ feature 'Viewing Lessons' do
                                 sentence: "My aim is to become a helicopter pilot.",
                                 letter: a, lesson: lesson_one, part_of_speech: noun) }
 
-  feature "All Lessons path" do
+  feature "Translate Me All path" do
     before do
-      visit category_lessons_path(category)
+      visit translate_me_all_category_path(category)
     end
 
     scenario { should have_title("MerryEnglish") }
@@ -35,8 +35,10 @@ feature 'Viewing Lessons' do
     scenario { should have_link 'Lessons' }
     scenario { should have_link 'Translate Me' }
 
-    scenario { should have_content("Lessons") }
-    scenario { should have_link("All Lessons") }
+    scenario { should have_css("div.container") }
+    scenario { should have_css("h1") }
+
+    scenario { should have_link("All Games") }
 
     scenario { should have_link("Lesson #{lesson_one.number}") }
     scenario { should have_link("Translate Me Game") }
@@ -46,55 +48,63 @@ feature 'Viewing Lessons' do
     scenario { should have_link("Lesson #{lesson_two.number}") }
     scenario { should have_content(second_word.word) }
 
-    scenario { should have_content("Lessons: #{lesson_one.number} #{lesson_two.number}") }
-
+    scenario { should have_content("Games: #{lesson_one.number} #{lesson_two.number}") }
     scenario { should have_content("2015 by Alex Izotov (izotovalexander@gmail.com)") }
-  end
 
-  feature "Lesson 1 path" do
-    before do
-      visit category_lesson_path(category, lesson_one)
+    feature "Follow Translate Me" do
+      before do
+        first(:link, "Translate Me Game").click
+      end
+
+      scenario { expect(page.current_url).to eql(translate_me_category_url(category, lesson_one.number)) }
     end
 
-    scenario { should have_content("Lesson #{lesson_one.number}") }
-    scenario { should have_link("Translate Me Game") }
+    feature "Follow Lesson 1" do
+      before do
+        click_link "Lesson 1"
+      end
 
-    scenario { should have_link("All Lessons") }
+      scenario { expect(page.current_url).to eql(category_lesson_url(category, lesson_one)) }
+    end
+  end
+
+  feature "Translate Me for Lesson 1 path" do
+    before do
+      visit translate_me_category_path(category, lesson_one.number)
+    end
+
+    scenario { should have_link("All Games") }
     scenario { should have_link("Next") }
     scenario { should have_no_link("Previous") }
 
+    scenario { should have_content("Game for Lesson 1") }
     scenario { should have_content(first_word.word) }
-    scenario { should have_content(first_word.translation) }
-    scenario { should have_content(first_word.sentence) }
-    scenario { should have_content(first_word.part_of_speech.acronym) }
+    scenario { should have_content(third_word.word) }
 
-    scenario { should have_content("Lessons: #{lesson_one.number} #{lesson_two.number}") }
-  end
+    scenario { should have_content("Games: #{lesson_one.number} #{lesson_two.number}") }
 
-  feature "Follow Lesson 1" do
-    before do
-      visit category_lessons_path(category)
-      click_link "Lesson #{lesson_one.number}"
+    feature "Follow Game" do
+      before do
+        click_link "Game"
+      end
+
+      scenario { expect(page.current_url).to eql(translate_me_category_url(category, lesson_one.number)) }
     end
 
-    scenario { expect(page.current_url).to eql(category_lesson_url(category, lesson_one)) }
-  end
+    feature "Follow Lesson 1" do
+      before do
+        click_link "Lesson 1"
+      end
 
-  feature "Follow Translate Me Game" do
-    before do
-      visit category_lessons_path(category)
-      first(:link, "Translate Me Game").click
+      scenario { expect(page.current_url).to eql(category_lesson_url(category, lesson_one)) }
     end
 
-    scenario { expect(page.current_url).to eql(translate_me_category_url(category, lesson_one.number)) }
-  end
+    feature "Follow All Games" do
+      before do
+        click_link "All Games"
+      end
 
-  feature "Follow Translate Me Game on Lesson 1" do
-    before do
-      visit category_lesson_path(category, lesson_one)
-      click_link "Translate Me Game"
+      scenario { expect(page.current_url).to eql(translate_me_all_category_url(category)) }
     end
-
-    scenario { expect(page.current_url).to eql(translate_me_category_url(category, lesson_one.number)) }
   end
 end

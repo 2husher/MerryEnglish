@@ -8,7 +8,7 @@ class LessonsController < ApplicationController
 
   def show
     @category = Category.find(params[:category_id])
-    @all_lessons = @category.lessons
+    @all_lessons = @category.lessons.all
     @lesson      = @all_lessons.find(params[:id])
     @entities = @lesson.entities
   end
