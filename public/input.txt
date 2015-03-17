@@ -1078,6 +1078,126 @@ Begin Lesson 12 Category Second 600 Words
 
 End Lesson 12
 ############################################################
+Begin Lesson 13 Category Second 600 Words
+
+покидать [V] abandon [] The old room had been abandoned years before.
+честолюбивый [ADJ] ambitious [] Kendra had to be ambitious to get into medical school.
+лаять [V] bark [] The dog barked loudly and frighteningly.
+бухта, залив [N] bay [] The Golden Gate Bridge crosses San Francisco Bay.
+выдающийся [ADJ] brilliant [] My younger sister is brilliant for someone her age.
+подбородок [N] chin [] Luke pointed to the h a ir on his chin.
+жалоба [N] complaint [] Mom said she didn’t want to hear my brother’s complaints.
+глухой [ADJ] deaf [] Susan was born deaf.
+восторженный, полный энтузиазма [ADJ] enthusiastic [] The man was enthusiastic about his job.
+экспедиция [N] expedition [] They got into their spaceship to begin their expedition.
+
+End Lesson 13
+############################################################
+Begin Lesson 14 Category Second 600 Words
+
+горизонт [N] horizon [] The sun clipped below the horizon.
+преданный, верный [ADJ] loyal [] The three friends are very loyal to each other.
+мэр [N] mayor [] The mayor of my hometown is quite a powerful speaker.
+взаимный [ADJ] mutual [] Robert likes Sarah. The feeling is mutual.
+весящий больше нормы[ADJ] overweight [] Roger eats too much, so now he’s overweight.
+убежище [N] refuge [] When it started to rain, she found refuge in the house.
+восстановить [V] restore [] Victor restored the old car.
+тереть [V] rub [] Mom’s feet were sore, so she rubbed them.
+чувства [N] senses [] It would be hard to live without your five senses.
+ветеран [N] veterinarian [] Wanda became a veterinarian because she loves dogs.
+
+End Lesson 14
+############################################################
+Begin Lesson 15 Category Second 600 Words
+
+годовщина, юбилей [N] anniversary []  My parents went out to eat for their wedding anniversary.
+арифметика [N] arithmetic [] I like to study arithmetic at school.
+пристыженный [ADJ] ashamed [] He was ashamed when he found out that I knew about his past.
+взрываться, лопаться [V] burst [] The bomb b urst over the city.
+плотник [N] carpenter [] We hired a carpenter to make a cupboard.
+уголь [N] coal [] Many power stations burn coal to produce energy.
+диван [N] couch [] Kim and Martin’s new couch was very expensive.
+капать [V] drip [] I heard water dripping from the faucet.
+элегантный [ADJ] elegant [] In Japan, women wear elegant kimonos on special occasions.
+ткань, материя [N] fabric [] The towels were made from a soft fabric.
+
+End Lesson 15
+############################################################
+Begin Lesson 16 Category Second 600 Words
+
+горная местность [N] highlands [] The man had a small home in the highlands.
+бивень [N] ivory [] The elephant’s long ivory tusks looked very impressive.
+мельница [N] mill [] The farmer took his wheat to the mill to make it into flour.
+игла [N] needle [] I used a needle to fix the hole in my pants.
+полировать [V] polish [] Mark spent all morning polishing his shoes for the wedding.
+шить [V] sew [] I learned to sew when I was a little girl.
+сарай [N] shed [] We have a small shed in the backyard for storage.
+нить [N] thread [] I have many different colors of thread at home.
+подстригать [V] trim [] I had my hair trimmed this afternoon.
+вверх [ADV] upwards [] The kite went upwards further and further.
+
+End Lesson 16
+############################################################
+Begin Lesson 17 Category Second 600 Words
+
+беспокоить, причинять боль [V] ail [] My brother went to the doctor to see what was ailing him.
+союзник [N] ally [] I was happy to find many allies who shared the same opinion as me.
+хвастаться [V] boast [] We all became tired of listening to him boast about himself all day.
+отскакивать [V] bounce [] Owen bounced the ball on the ground.
+хулиган, задира [N] bully [] The two bullies always picked on the smaller, weaker kids.
+углевод [N] carbohydrate [] Carbohydrates like rice are a good source of energy for active people.
+ползать [V] crawl [] The baby crawled across the floor.
+побеждать [V] defeat [] The champion defeated the challenger in the boxing match.
+циферблат [N] dial [] I looked at the dial to see what time it was.
+господствующий [ADJ] dominant [] The gorilla is one of the dominant animals in the jungle.
+
+End Lesson 17
+############################################################
+Begin Lesson 18 Category Second 600 Words
+
+мелосердие, прощение [N] mercy [] He asked his boss for mercy and to not fire him.
+кивать [V] nod [] I nodded my head as I listened to the song.
+противник [N] opponent [] On the field, our opponents were too good for us.
+ссориться, спорить [V] quarrel [] Billy quarreled with his wife about buying a new house.
+соперник, конкурент [N] rival [] The three rivals were all competing for the same job.
+больной, воспаленный [ADJ] sore [] After lifting the heavy box, Mona’s back was sore.
+ужалить [V] sting [] The needle stung my arm and made me say, “ Ouch!”
+напрягатся [V] strain [] Casey strained to lift the heavy box.
+пытка [N] torture [] Greg thought that writing the essay was torture.
+бороться [V] wrestle [] My dad loved to wrestle when he was in high school.
+
+End Lesson 18
+############################################################
+Begin Lesson 19 Category Second 600 Words
+
+отсутствие [N] absence [] There is an absence o f sand in the hourglass.
+вслух [ADV] aloud [] My father often reads stories aloud to me and my sister.
+лысый [ADJ] bald [] My oldest brother is bald.
+одеяло [N] blanket [] I laid a blanket on the ground so that we could have a picnic.
+красться, ползти [V] creep [] The cat slow ly crept down the tree.
+развод [N] divorce [] Divorce rates have increased in the past twenty years.
+подражать, имитировать [V] imitate [] He imitated his favorite superhero by putting on a costume.
+младенец [N] infant [] The infant cried all night.
+похищать детей [V] kidnap [] She was terrified to find out her son was kidnapped.
+короткий сон [N] nap [] I took a short nap because I stayed up late last night.
+
+End Lesson 19
+############################################################
+Begin Lesson 20 Category Second 600 Words
+
+нигде [ADV] nowhere [] Unfortunately, water was nowhere to be found.
+похлопывать [V] pat [] I patted some lotion onto my face.
+облегчение [N] relief [] I felt a sense of relief when I heard the good news.
+воспроизводить [V] reproduce [] The children tried to reproduce their house using toy blocks.
+рифма [N] rhyme [] Humpty Dumpty is an old rhyme that children learn in school.
+сосать [V] suck [] The baby sucked milk from her bottle.
+срочный [ADJ] urgent [] He had to leave now; it was urgent.
+исчезать [V] vanish [] All the passengers vanished from the train station.
+тележка [N] wagon [] He used his wagon to carry some of his gifts.
+морщина [N] wrinkle [] My grandfather has some wrinkles on his face.
+
+End Lesson 20
+############################################################
 Begin Lesson 1 Category Twilight. Phenomenon
 
 прикрывать, скрывать [V] veil [вЕил] I realized there was no fog veiling my window.
