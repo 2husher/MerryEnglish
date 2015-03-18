@@ -3,10 +3,11 @@ class EntitiesController < ApplicationController
     @lesson = Lesson.find(params[:lesson_id])
     @new_entity   = @lesson.entities.build(entity_params)
     word = params[:entity][:word]
-    letter = word[0].upcase if word
+    letter = word[0].upcase if word.present?
     @new_entity.letter = Letter.find_by(name: letter)
     @new_entity.part_of_speech = PartOfSpeech.find_by(name: params[:pos][:part_of_speech])
-    if @new_entity.save!
+    @new_entity.tag!(params[:tags])
+    if @new_entity.save
       respond_to do |format|
         format.html do
           redirect_to [@lesson.category, @lesson], notice: 'Lesson created'

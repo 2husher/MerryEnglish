@@ -17,6 +17,7 @@ class Entity < ActiveRecord::Base
   belongs_to :lesson
   belongs_to :part_of_speech
   belongs_to :letter
+  has_and_belongs_to_many :tags
 
   validates :word, presence: true
   validates :translation, presence: true
@@ -27,4 +28,14 @@ class Entity < ActiveRecord::Base
   validates :letter_id, presence: true
 
   default_scope { order('word') }
+
+  def tag!(tags)
+    tags = tags.split(" ").map do |tag|
+      Tag.where(name: tag).first_or_create
+    end
+
+    p tags
+
+    self.tags << tags
+  end
 end

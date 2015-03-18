@@ -1113,7 +1113,7 @@ Begin Lesson 15 Category Second 600 Words
 годовщина, юбилей [N] anniversary []  My parents went out to eat for their wedding anniversary.
 арифметика [N] arithmetic [] I like to study arithmetic at school.
 пристыженный [ADJ] ashamed [] He was ashamed when he found out that I knew about his past.
-взрываться, лопаться [V] burst [] The bomb b urst over the city.
+взрываться, лопаться [V] burst [] The bomb burst over the city.
 плотник [N] carpenter [] We hired a carpenter to make a cupboard.
 уголь [N] coal [] Many power stations burn coal to produce energy.
 диван [N] couch [] Kim and Martin’s new couch was very expensive.
@@ -1126,7 +1126,7 @@ End Lesson 15
 Begin Lesson 16 Category Second 600 Words
 
 горная местность [N] highlands [] The man had a small home in the highlands.
-бивень [N] ivory [] The elephant’s long ivory tusks looked very impressive.
+слоновья кость [N] ivory [] The elephant’s long ivory tusks looked very impressive.
 мельница [N] mill [] The farmer took his wheat to the mill to make it into flour.
 игла [N] needle [] I used a needle to fix the hole in my pants.
 полировать [V] polish [] Mark spent all morning polishing his shoes for the wedding.

@@ -14,6 +14,9 @@
     %tr
       %td= f.label :sentence
       %td= f.text_area :sentence
+    %tr
+      %td= label_tag :tags
+      %td= text_field_tag :tags
 
   .actions
     = f.submit @new_entity.new_record? ? 'Create Word' : 'Update Word'
