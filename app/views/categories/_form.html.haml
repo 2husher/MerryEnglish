@@ -1,0 +1,8 @@
+= form_for @new_category do |f|
+  %table
+    %tr
+      %td= f.label :name
+      %td= f.text_field :name
+  .actions
+    = f.submit @new_category.new_record? ? 'Create Category' : 'Update Category'
+
