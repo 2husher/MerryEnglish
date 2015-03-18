@@ -7,6 +7,7 @@
   Lesson #{@lesson.number}
   &lt;#{link_to 'Translate Me Game', translate_me_category_path(@category, @lesson.number)}&gt;
 
-= render 'entities/new'
+- if user_signed_in? && (@lesson.entities.count < max_entities_per_lesson)
+  = render 'entities/new'
 
 = render @entities

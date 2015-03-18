@@ -3,7 +3,7 @@ class TranslateMeGameController < ApplicationController
     @category = Category.find(params[:id])
     #@lessons  = @category.lessons.includes(:entities)
     @all_lessons = @category.lessons
-    @lessons     = @all_lessons.paginate(page: params[:page], per_page: 10)
+    @lessons     = @all_lessons.paginate(page: params[:page], per_page: max_entities_per_lesson)
   end
 
   def translate
