@@ -46,4 +46,12 @@ class DictionaryController < ApplicationController
   def word
     @entity = Entity.find_by(word: params[:word])
   end
+
+  def unknown
+    lesson = Lesson.find_by(id: params[:lesson_id])
+    entity = lesson.entities.find_by(word: params[:word])
+    tags = 'UNKNOWN'
+    entity.tag!(tags)
+    render nothing: true
+  end
 end

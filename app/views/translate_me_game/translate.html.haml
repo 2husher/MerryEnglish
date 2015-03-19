@@ -11,11 +11,15 @@
 %button{id: 'all_at_once', type:"button", class:"btn"} All At Once
 %button{id: 'by_one', type:"button", class:"btn"} By One
 %button{id: 'next_one', type:"button", class:"btn", style: "display: none;"} Next One
-%hr
 
 - @entities_array.each do |e|
   %div{class: "entity #{cycle('line_odd', 'line_even')}" }
     %span.word= e[0]
+    - if user_signed_in?
+      = button_to "Don't know",                                |
+                  lesson_unknown_path(@lesson, e[0]),          |
+                  remote: true                                 |
+    %span.tags= render partial: 'tags/tag', collection: e[3]
     %span.translation{style: 'display: none;'}
       = e[1]
     %span.sentence{style: 'display: none;'}

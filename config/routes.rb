@@ -18,6 +18,7 @@ Rails.application.routes.draw do
 
   resources :lessons do
     resources :entities
+    post 'unknown/:word', to: 'dictionary#unknown', as: :unknown
   end
 
   get 'search', to: 'search#find_words'

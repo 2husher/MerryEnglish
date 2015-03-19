@@ -31,11 +31,15 @@ class Entity < ActiveRecord::Base
 
   def tag!(tags)
     tags = tags.split(" ").map do |tag|
-      Tag.where(name: tag).first_or_create
+      tag = Tag.where(name: tag).first_or_create
     end
 
-    p tags
-
-    self.tags << tags
+    tags.each do |tag|
+      unless self.tags.include?(tag)
+        self.tags << tag
+      else
+        #p "DOUBLE TAG!!!!!"
+      end
+    end
   end
 end
