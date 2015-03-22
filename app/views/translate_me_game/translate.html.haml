@@ -16,9 +16,12 @@
   %div{class: "entity #{cycle('line_odd', 'line_even')}" }
     %span.word= e[0]
     - if user_signed_in?
+      = button_to "Know",                                      |
+                  lesson_known_path(@lesson, e[0]),            |
+                  remote: true
       = button_to "Don't know",                                |
                   lesson_unknown_path(@lesson, e[0]),          |
-                  remote: true                                 |
+                  remote: true
     %span.tags= render partial: 'tags/tag', collection: e[3]
     %span.translation{style: 'display: none;'}
       = e[1]

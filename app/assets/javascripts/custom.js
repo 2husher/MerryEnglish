@@ -11,20 +11,37 @@ function sentence(){
 }
 
 var entities;
-var i = 0;
+var i;
 function by_one(){
   $("#by_one").on("click", function(){
     entities = $('div.entity');
     entities.hide();
-    $('#next_one').show();
+    i = 0;
+    //$('#next_one').show();
     $('#by_one').hide();
     entities.eq(i).show();
     i++;
   });
 }
 
-function next_one(){
-  $("#next_one").on("click", function(){
+function known_next(){
+  $("input[value='Know']").on("click", function(){
+    if (i < entities.length){
+      entities.eq(i-1).hide();
+      entities.eq(i).show();
+      i++;
+    }
+    else{
+      entities.eq(i-1).hide();
+      $('#next_one').hide();
+      i = 0;
+      $('#by_one').show();
+    }
+  });
+}
+
+function unknown_next(){
+  $("input[value=\"Don't know\"]").on("click", function(){
     if (i < entities.length){
       entities.eq(i-1).hide();
       entities.eq(i).show();
@@ -44,7 +61,9 @@ $(document).ready(function(){
   translate();
   sentence();
   by_one();
-  next_one();
+  known_next();
+  unknown_next();
+  //next_one();
 });
 
 $(document).on('page:load',function(){
@@ -52,5 +71,7 @@ $(document).on('page:load',function(){
   translate();
   sentence();
   by_one();
-  next_one();
+  known_next();
+  unknown_next();
+  //next_one();
 });

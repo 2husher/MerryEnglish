@@ -19,7 +19,10 @@ Rails.application.routes.draw do
   resources :lessons do
     resources :entities
     post 'unknown/:word', to: 'dictionary#unknown', as: :unknown
+    post 'known/:word', to: 'dictionary#known', as: :known
   end
+
+  delete 'entities/:entity_id/tags/:id', to: 'dictionary#remove_tag', as: :entity_tag
 
   get 'search', to: 'search#find_words'
 

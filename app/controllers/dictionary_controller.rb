@@ -47,11 +47,27 @@ class DictionaryController < ApplicationController
     @entity = Entity.find_by(word: params[:word])
   end
 
-  def unknown
-    lesson = Lesson.find_by(id: params[:lesson_id])
-    entity = lesson.entities.find_by(word: params[:word])
-    tags = 'UNKNOWN'
-    entity.tag!(tags)
+  def known
+    new_tag = 'KNOWN'
+    old_tag = 'UNKNOWN'
+    set_tag(old_tag, new_tag)
     render nothing: true
   end
+
+  def unknown
+    new_tag = 'UNKNOWN'
+    old_tag = 'KNOWN'
+    set_tag(old_tag, new_tag)
+    render nothing: true
+  end
+
+  private
+
+    def set_tag(old_tag, new_tag)
+      lesson = Lesson.find_by(id: params[:lesson_id])
+      entity = lesson.entities.find_by(word: params[:word])
+      entity.tag!(new_tag)
+      tag = Tag.find_by(name: old_tag)
+      entity.tags -= [tag] if tag.present?
+    end
 end
