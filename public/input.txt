@@ -1198,6 +1198,156 @@ Begin Lesson 20 Category Second 600 Words
 
 End Lesson 20
 ############################################################
+Begin Lesson 21 Category Second 600 Words
+
+ненормальный [ADJ] abnormal [] Her idea of art is a bit too abnormal for me.
+бамбук [N] bamboo [] Outside his home, there is a lot of bamboo.
+цветок [N] blossom [] There were colorful blossoms in the yard.
+компас [N] compass [] A compass is an important tool to have when you are traveling.
+диалект[N] dialect [] People from the U.K. have a different dialect of English from those in the USA
+нечестный [ADJ] dishonest [] She was being dishonest when she copied the answers from his test.
+гном [N] dwarf [] The dwarf had a pleasant look on his face.
+экосистема [N] ecosystem [] The river’s ecosystem not only includes fish but other insects and plants
+смертельный [ADJ] fatal [] They passed away in a fatal car crash.
+нетерпеливый [ADJ] impatient [] Bob was so impatient that he could barely wait for the light to turn green.
+
+End Lesson 21
+############################################################
+Begin Lesson 22 Category Second 600 Words
+
+лист [N] leaf [] In the fall, the leaves on the trees change colors.
+рукопись [N] manuscript [] The manuscript was written over 150 years ago.
+болото [N] marsh [] The marsh looked so lovely against the mountains.
+терпение [N] patience [] Sue’s patience was rewarded by catching her very first fish.
+духи [N] perfume [] When she wore her perfume, everyone said she smelled great.
+пруд [N] pond [] The ducks swam in the pond.
+пословица [N] proverb [] The proverb “egg on your face” means you’ve done something embarrassing.
+погоня [N] pursuit [] The dinosaur was in pursuit of the caveman.
+декламировать, читать вслух [V] recite [] Katie recited the Pledge of Allegiance in class.
+дикая местность [N] wilderness [] If you are not careful, you can get lost in the wilderness.
+
+End Lesson 22
+############################################################
+Begin Lesson 23 Category Second 600 Words
+
+предвидеть [V] anticipate [] Carrie anticipated the arrival of her baby.
+бочка [N] barrel [] There was an empty barrel outside the house.
+балка [N] beam  Modern skyscrapers are made with several beams.
+повседневный (расслабленный и простой) [ADJ] casual [] You can wear casual clothes to the party like jeans.
+осторожность [N] caution [] Please use the powersaw with caution. It is very dangerous.
+противоположный [ADJ] contrary [] It isn’t warm outside at all. On the contrary, it is quite cold.
+преднамеренный, умышленный [ADJ] deliberate [] Bernie made a deliberate attempt to injure Andy.
+растворить [V] dissolve [] I dissolved the pill in a glass of water.
+взрываться [V] explode [] My new radio exploded when I plugged it in.
+скреплять [V] fasten [] Elizabeth fastened her seat belt.
+
+End Lesson 23
+############################################################
+Begin Lesson 24 Category Second 600 Words
+
+микроб [N] germ [] Germs are on everything that you touch.
+комлект [N] kit [] Is there a first aid kit in your office?
+дымок [N] puff [] A puff of smoke came from the burnt match.
+rag [N] rag [] Please use a rag to clean the dust off the table.
+разбрасывать [V] scatter [] I accidentally scattered all of my pills.
+запах [N] scent [] Julie enjoyed the scent of the flowers.
+сталь [N] steel [] The new apartment building was made with steel.
+быстрый [ADJ] swift [] The swift horse easily jumped over the hurdle.
+бросать легонько [V] toss [] He tossed a coin into the air.
+триумф [N] triumph [] He raised the award in triumph at the end of his speech.
+
+End Lesson 24
+############################################################
+Begin Lesson 25 Category Second 600 Words
+
+на борт [PREP] aboard [] They climbed aboard the kayak and paddled through the river.
+озлобленный, расстроенный [АDJ] bitter [] He was extremely bitter when his computer crashed.
+пуля [N] bullet [] Bullets come in different sizes for different guns.
+дьявол [N] devil [] The church promised protection from the devil.
+дрейфовать, плыть по течению [V] drift [] The large chunk of ice drifted in the water.
+принуждать [V] enforce [] Police enforce traffic laws to keep everyone safe.
+фонтан [N] fountain [] There was a beautiful fountain in the middle of the park.
+гавань [N] harbor [] There were a few small boats in the harbor.
+населять [V] inhabit [] No one inhabits the ancient city.
+маршировать [V] march [] The soldiers marched in straight rows.
+
+End Lesson 25
+############################################################
+Begin Lesson 26 Category Second 600 Words
+
+миллионер [N] millionaire [] He became a millionaire because he was smart with his money.
+порт [N] port [] The ship was being loaded with materials at the port.
+шериф [N] sheriff [] It was the sheriff’s job to make the city safe.
+напугать [V] startle [] The loud crash startled the sleeping woman.
+потеть [V] sweat [] Whenever I workout, I sweat quite a bit.
+курок, спусковой крючок [N] trigger [] The man had his finger on the trigger of the gun.
+объединять [V] unify [] With their good deeds, the children tried to unify the world.
+судно, корабль [N] vessel [] We toured the area aboard a luxury vessel.
+путешествие [N] voyage [] The astronauts took off on a long voyage to the moon.
+поклоняться, почитать [V] worship [] Many people around the world worship in a church.
+
+End Lesson 26
+############################################################
+Begin Lesson 27 Category Second 600 Words
+
+ученик, подмастерье [N] apprentice [] Mark is an apprentice chef at the restaurant.
+гарантировать, уверять [V] assure [] He assured the boss that the building would be done on time.
+повязка [N] bandage [] If you cut yourself, please get a bandage from the first-aid kit.
+кровоточить [V] bleed [] If you are not careful, you will cut your finger and bleed.
+привязаться [V] bond [] The women bonded after several hours of conversation.
+шеф-повар [N] chef [] Tom is a chef at the restaurant near my house.
+корона [N] crown [] The crown is made of gold.
+отправление [N] departure [] They were excited about their departure back home.
+старательный, прилежный [ADJ] diligent [] Craig has always been a very diligent person at work.
+император [N] emperor [] The emperor Julius Caesar was in control of ancient Rome.
+
+End Lesson 27
+############################################################
+Begin Lesson 28 Category Second 600 Words
+
+волокно [N] fiber [] The mat was made from tiny fibers.
+ужасный [ADJ] horrible [] The assignment was horrible. I hated it.
+невежливый [ADJ] impolite [] Roger is impolite to everyone he meets.
+становиться на колени [V] kneel [] Daryl got down on one knee and asked Nina to marry him.
+роскошь [N] luxury [] We stayed at a luxury resort for our honeymoon.
+массивный [ADJ] massive [] The wheels on his truck were massive.
+паниковать [V] panic [] Everyone panicked when the house caught on fire.
+приоритет [N] priority [] My priority is to get good grades in school.
+халат [N] robe [] Many people wear robes in the morning.
+ругать, бранить [V] scold [] Jesse was scolded by the teacher for not paying attention.
+
+End Lesson 28
+############################################################
+Begin Lesson 29 Category Second 600 Words
+
+событие [N] affair [] My wife and I attended a formal affair over the weekend.
+общество, собрание [N] assembly [] The students had an assembly to talk about their interests.
+благословить [V] bless [] The angel blessed the newborn baby to keep it safe.
+каша [N] cereal [] Cereal is a fast and common breakfast food enjoyed in the U.S.
+веселый [ADJ] cheerful [] The children were cheerful because they didn’t have to go to school.
+диаметр [N] diameter [] The diameter of the tree was about 22 centimeters.
+эксплуатировать [V] exploit [] The company exploits their workers and makes them stay 12 hours a day
+голод [N] famine [] The farmers couldn’t grow any food on the dry soil, so there was a famine.
+урожай [N] harvest [] They had a lot of wheat from the last harvest.
+веселый [ADJ] merry [] They felt merry because the weather was great.
+
+End Lesson 29
+############################################################
+Begin Lesson 30 Category Second 600 Words
+
+орех [N] nut [] To eat a nut, first you have to crack its shell.
+извините [V] pardon [] Pardon me teacher, but could you repeat what you just said?
+фараон [N] pharaoh [] The pharaohs ruled Egypt for thousands of years.
+спелый [ADJ] ripe [] The cherries were nice and ripe.
+жарить [V] roast [] Mom roasted a turkey for the holiday dinner.
+рутина, распорядок [N] routine [] My father’s daily routine includes shaving right before breakfast.
+схема [N] scheme [] Mickey and Minnie came up with a scheme to solve the problem.
+тонкий [ADJ] slim [] Look at my new cell phone. It’s very slim .
+плита [N] stove [] Our new stove helps us to cook food much faster than before.
+кража [N] theft [] The theft of his TV took place when he was at work.
+
+End Lesson 30
+############################################################
 Begin Lesson 1 Category Twilight. Phenomenon
 
 прикрывать, скрывать [V] veil [вЕил] I realized there was no fog veiling my window.

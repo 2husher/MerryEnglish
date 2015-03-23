@@ -54,7 +54,9 @@ PartOfSpeech.delete_all
 Lesson.delete_all
 Letter.delete_all
 Entity.delete_all
+User.delete_all
 
+User.create!(email: "izotovalexander@gmail.com", password: "Yfxbyftncz8Ce,,jne")
 ('A'..'Z').each { |l| Letter.create!(name: l) }
 pos_hash = { "noun" => "N", "adjective" => "ADJ", "verb" => "V",
              "adverb" => "ADV", "conjunction" => "CONJ", "preposition" => "PREP"}
