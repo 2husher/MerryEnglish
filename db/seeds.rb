@@ -57,6 +57,7 @@ Entity.delete_all
 User.delete_all
 
 User.create!(email: "izotovalexander@gmail.com", password: "Yfxbyftncz8Ce,,jne")
+User.create!(email: "guest@gmail.com", password: "qazwsxedc")
 ('A'..'Z').each { |l| Letter.create!(name: l) }
 pos_hash = { "noun" => "N", "adjective" => "ADJ", "verb" => "V",
              "adverb" => "ADV", "conjunction" => "CONJ", "preposition" => "PREP"}
