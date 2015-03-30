@@ -1348,6 +1348,156 @@ Begin Lesson 30 Category Second 600 Words
 
 End Lesson 30
 ############################################################
+Begin Lesson 31 Category Second 600 Words
+
+подросток [N] adolescent [] The adolescent was excited about getting a skateboard for his birthday. I
+способность, склонность [N] aptitude [] He has a natural aptitude for water skiing.
+сделать комплимент [V] compliment [] Her co-worker complimented her for doing a good job.
+препятствовать, мешать [V] hinder [] All the traffic hindered me from getting to work on time.
+журнализм [N] journalism [] Before becoming a teacher, she worked in journalism.
+присяжные [N] jury [] The jury listened closely to the attorney before they made their decision. I
+правосудие, справедливость [N] justice [] People turn to the court system when they are seeking justice.
+свобода [N] liberty [] To many people, the Statue of Liberty is a symbol of freedom.
+литературный [ADJ] literary [] He worked hard to create a successful literary career.
+аптека [N] pharmacy [] My mother sells medicine to people at the pharmacy.
+
+End Lesson 31
+############################################################
+Begin Lesson 32 Category Second 600 Words
+
+таблетка [N] pill [] She took a pill for her headache.
+предполагать [V] presume [] Since he raised his hand, the teacher presumed he knew the answer.
+уединенность [N] privacy [] Please hang the sign on the door so we can have some privacy.
+наказание [N] punishment [] He was given a punishment for being rude to the teacher.
+разумный, рассудительный [ADJ] sensible [] It was sensible for her to save some money each month.
+ломтик [N] slice [] The girl enjoyed a slice of cake at her birthday party.
+печаль, горе [N] sorrow [] The girl felt sorrow after her best friend moved away.
+соломка [N] straw [] I drank the orange juice through a straw.
+набухать, раздуваться [V] swell [] My sister’s stomach began to sw ell after she got pregnant.
+аккуратный, опрятный [ADJ] tidy [] Leon has always been a very tidy boy.
+
+End Lesson 32
+############################################################
+Begin Lesson 33 Category Second 600 Words
+
+привязанность, любовь [N] affection [] Amanda has a lot of affection for her little sister Sarah.
+агентство [N] agency [] I went to a travel agency to help me arrange a flight home.
+пепел [N] ash [] The end of his cigar was full of ashes.
+ограничивать, заточать [V] confine [] The elephant is confined to a cage in the zoo.
+отклонять [V] dismiss [] He quickly dism issed my idea about a new project.
+извергаться [V] erupt [] The volcano erupted for the first time in ten years.
+судьба [N] fate [] Some people believe that a person’s hand can tell their fate.
+лава [N] lava [] The red hot lava poured from the volcano.
+несчастный, печальный [ADJ] miserable [] He was miserable after his dog died.
+управлять [V] navigate [] She navigated the ship across the ocean.
+
+End Lesson 33
+############################################################
+Begin Lesson 34 Category Second 600 Words
+
+происходить, возникать [V] originate [] The idea of democracy originated in Ancient Greece.
+остаток [N] remainder [] He took a bite of the apple, then gave me the rem ainder of it.
+извлекать [V] retrieve [] She retrieved her mail from the mail box.
+мелкий, поверхностный [ADJ] shallow [] The kids were playing in the shallow water.
+наклон, уклон [N] slope [] The slope to the top of the mountain was very steep.
+пройти времени [V] span [] His work began in 1999. It has spanned many years since then.
+суеверие [N] superstition [] It is a superstition that Friday the 13th is an unlucky day.
+сочувствие, сострадание [N] sympathy [] I felt sympathy for my sister so I got her a balloon to cheer her up.
+вибрировать [V] vibrate [] The machine made his whole body vibrate as he broke up the ground.
+бродить [V] wander [] The boys like to wander in the woods and look at birds.
+
+End Lesson 34
+############################################################
+Begin Lesson 35 Category Second 600 Words
+
+броня [N] armor [] The soldier wore armor to protect his body.
+пылать, полыхать [V] blaze [] The small fire soon blazed into a large dangerous one.
+греметь [V] boom [] The firecrackers made a loud boom when they exploded.
+утес, крутой обрыв [N] cliff [] The wolf stood at the cliff and howled.
+пламя [N] flame [] The torch was fille d with yellow and orange flames.
+независимость [N] independence [] After leaving home, Sophia had a great feeling of independence.
+вторжение [N] invasion [] In Korea, walls were built around cities to protect them from invasions.
+рыцарь [N] knight [] He was the best soldier, so the king made him a knight.
+молния [N] lightning [] The lig h tn in g flashed above the water.
+мятежник, повстанец [N] rebel [] The rebel had enough of the government’s unfair polices.
+
+End Lesson 35
+############################################################
+Begin Lesson 36 Category Second 600 Words
+
+отступать [N] retreat [] The army retreated because they were losing the battle.
+революция [N] revolution [] The revolution in Russia led to the creation of the Soviet Union.
+копье [N] spear [] The soldier was holding a spear in his hand.
+крутой, отвесный [ADJ] steep [] He rode his bike up the steep hill to reach the top.
+вершина [N] summit [] Snow covered the summit of the mountain even during the summer.
+гром [N] thunder [] The sound of the thunder startled me.
+войска [N] troops [] The troops were all prepared to go into battle.
+воин [N] warrior [] The samurai were some of the most skilled warriors in the ancient world.
+ретироваться, отводить [V] withdraw [] After losing the battle, the enemy withdrew back to its own country.
+уступать [] yield [] He had to yield his turn because he was in checkmate.
+
+End Lesson 36
+############################################################
+Begin Lesson 37 Category Second 600 Words
+
+скамья [N] bench [] Most parks have benches for citizens to relax upon.
+смотреть в лицо чему-л, противостоять [V] confront [] The couple has to confront each other about their problems.
+маргаритка [N] daisy [] There were a few daisies growing in the field.
+спор [N] dispute [] Karen and Brian often have disputes about silly things.
+ужас [N] horror [] The audience screamed in horror when the ghost appeared in the movie
+происшествие [N] incident [] Mr. Wilson had an incident where he became sick and had to leave.
+туман [N] mist [] The forest was covered with mist.
+объект, предмет [N] object [] The shopping cart was filled with objects.
+сирота [N] orphan [] The orphan frequently cried during the night.
+плести интриги [V] plot [] The group was plotting to ruin the company’s financial reports.
+
+End Lesson 37
+############################################################
+Begin Lesson 38 Category Second 600 Words
+
+беременная [ADJ] pregnant [] The pregnant woman was shopping for baby clothes.
+ярость [N] rage [] The chef was filled with rage when his helpers ruined the meal.
+месть [N] revenge [] He broke his sister’s doll as revenge after she lost his favorite book.
+стыд, позор [N] shame [] The boy felt shame about misplacing his clothes.
+вздыхать [V] sigh [] Molly sighed when she looked at all the information she had to research.
+красться [V] sneak [] The thief snuck out of the house without anyone noticing him.
+уделять [V] spare [] I wanted to help him but I couldn’t spare a tire.
+стебель [N] stem [] The rose had a long thin stem.
+ужин [N] supper [] We usually have supper around 6 o’clock at my house.
+мягкий [ADJ] tender [] The meat was so tender they didn’t need knives to cut it with.
+
+End Lesson 38
+############################################################
+Begin Lesson 39 Category Second 600 Words
+
+под [PREP] beneath [] The largest part of an iceberg lies beneath the waterline.
+детеныш [N] cub [] The lion cub was crying for its mother.
+рассвет [N] dawn [] At dawn, the sun gently rose over the farm.
+недовольный [ADJ] dissatisfied [] I was dissatisfied with their decision to work on Sunday.
+легкость [N] ease [] The monkey clim bed the tree with ease.
+очевидно, явно [ADJ] evident [] It was evident from the look on his face that he was unhappy.
+град [N] hail [] The hail from the storm was the size of golf balls.
+выть [V] howl [] The wolf howled at the moon.
+прыгать, скакать [V] leap [] He had to leap over the gap to reach the other side of the hill.
+великолепный, величественный [ADJ] magnificent [] The man gave his wife a pair of magnificent diamond earrings.
+
+End Lesson 39
+############################################################
+Begin Lesson 40 Category Second 600 Words
+
+необходимость [N] necessity [] Fresh water is a necessity for life.
+результат [N] outcome [] The outcome of his latest business plan was a complete failure.
+стопка [N] pile [] The pile of cups was beginning to tilt.
+мудрый, глубокий [ADJ] profound [] For a little boy, Jeremy has some profound thoughts.
+схватить [V] seize [] The man seized as much money as he could before anyone could see
+сжимать, обнимать [V] squeeze [] When Clara saw her cat, she gave it a big squeeze.
+верховный, высший [ADJ] supreme [] The supreme officer was in charge of keeping the citizens calm.
+потрясающий [ADJ] terrific [] My youngest daughter is a terrific painter.
+характерная черта [N] trait [] One trait of Salvador’s personality is his cheerfulness.
+жизненно важный [ADJ] vital [] The heart is a vital organ.
+
+End Lesson 40
+############################################################
 Begin Lesson 1 Category Twilight. Phenomenon
 
 прикрывать, скрывать [V] veil [вЕил] I realized there was no fog veiling my window.
