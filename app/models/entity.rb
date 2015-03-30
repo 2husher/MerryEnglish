@@ -17,7 +17,8 @@ class Entity < ActiveRecord::Base
   belongs_to :lesson
   belongs_to :part_of_speech
   belongs_to :letter
-  has_and_belongs_to_many :tags
+
+  has_and_belongs_to_many :labels
 
   validates :word, presence: true
   validates :translation, presence: true
@@ -29,17 +30,24 @@ class Entity < ActiveRecord::Base
 
   default_scope { order('word') }
 
-  def tag!(tags)
-    tags = tags.split(" ").map do |tag|
-      tag = Tag.where(name: tag).first_or_create
+  def tag!(user, tags)
+    tags.split(" ").each do |tag|
+      tag = user.tags.where(name: tag).first || user.tags.create(name: tag)
+      label = Label.where("user_id = ? and tag_id = ?", user.id, tag.id).first
+      self.labels << label unless self.labels.include?(label)
     end
+  end
 
-    tags.each do |tag|
-      unless self.tags.include?(tag)
-        self.tags << tag
-      else
-        #p "DOUBLE TAG!!!!!"
-      end
+  def untag!(user, tag)
+    tag = user.tags.find_by(name: tag)
+    if tag.present?
+      label = Label.where("user_id = ? and tag_id = ?", user.id, tag.id).first
+      self.labels -= [label] if label.present?
     end
+  end
+
+  def all_tags(user)
+    labels = self.labels.where("user_id = ?", user.id)
+    tags = labels.map { |label| label.tag.name }
   end
 end

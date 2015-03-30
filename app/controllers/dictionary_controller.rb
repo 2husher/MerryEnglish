@@ -50,24 +50,31 @@ class DictionaryController < ApplicationController
   def known
     new_tag = 'KNOWN'
     old_tag = 'UNKNOWN'
-    set_tag(old_tag, new_tag)
+    change_tag(old_tag, new_tag)
     render nothing: true
   end
 
   def unknown
     new_tag = 'UNKNOWN'
     old_tag = 'KNOWN'
-    set_tag(old_tag, new_tag)
+    change_tag(old_tag, new_tag)
     render nothing: true
   end
 
   private
 
-    def set_tag(old_tag, new_tag)
+    def change_tag(old_tag, new_tag)
       lesson = Lesson.find_by(id: params[:lesson_id])
       entity = lesson.entities.find_by(word: params[:word])
-      entity.tag!(new_tag)
-      tag = Tag.find_by(name: old_tag)
-      entity.tags -= [tag] if tag.present?
+      add_tag(entity, new_tag)
+      remove_tag(entity, old_tag)
+    end
+
+    def add_tag(entity, tag)
+      entity.tag!(current_user, tag)
+    end
+
+    def remove_tag(entity, tag)
+      entity.untag!(current_user, tag) if tag.present?
     end
 end
