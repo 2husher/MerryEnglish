@@ -1232,7 +1232,7 @@ Begin Lesson 23 Category Second 600 Words
 
 предвидеть [V] anticipate [] Carrie anticipated the arrival of her baby.
 бочка [N] barrel [] There was an empty barrel outside the house.
-балка [N] beam  Modern skyscrapers are made with several beams.
+балка [N] beam [] Modern skyscrapers are made with several beams.
 повседневный (расслабленный и простой) [ADJ] casual [] You can wear casual clothes to the party like jeans.
 осторожность [N] caution [] Please use the powersaw with caution. It is very dangerous.
 противоположный [ADJ] contrary [] It isn’t warm outside at all. On the contrary, it is quite cold.
@@ -1434,7 +1434,7 @@ Begin Lesson 36 Category Second 600 Words
 войска [N] troops [] The troops were all prepared to go into battle.
 воин [N] warrior [] The samurai were some of the most skilled warriors in the ancient world.
 ретироваться, отводить [V] withdraw [] After losing the battle, the enemy withdrew back to its own country.
-уступать [] yield [] He had to yield his turn because he was in checkmate.
+уступать [V] yield [] He had to yield his turn because he was in checkmate.
 
 End Lesson 36
 ############################################################
@@ -1497,6 +1497,36 @@ Begin Lesson 40 Category Second 600 Words
 жизненно важный [ADJ] vital [] The heart is a vital organ.
 
 End Lesson 40
+############################################################
+Begin Lesson 41 Category Second 600 Words
+
+привыкший [ADJ] accustomed [] Grandfather is accustomed to reading the newspaper every morning.
+утверждать, подтверждать [V] affirm [] Using a graph, Malcolm affirmed the success of the company.
+изумленный, пораженный [ADJ] astonished [] I was astonished when he pulled the live rabbit out of his hat.
+ударять [V] bang [] The drummer banged on his drum as he marched in the parade.
+род, клан [N] clan [] The Lee clan meets every year to celebrate the New Year.
+тусклый [ADJ] dim [] Working in a dim room is bad for your eyes.
+акцент, особое внимание [N] emphasis [] The students put special emphasis on chapter 4 because it will be on the test.
+басня [N] fable [] In the fable about the tortoise and the hare, the lesson is consistency.
+пир [N] feast [] At Thanksgiving, I enjoy a wonderful feast with my family.
+светиться [V] glow [] The small flame glowed softly.
+
+End Lesson 41
+############################################################
+Begin Lesson 42 Category Second 600 Words
+
+полый [ADJ] hollow [] Straws are hollow, so liquid can flow through them.
+инстинкт [N] instinct [] Cats hunt mice because of instinct.
+сустав [N] joint [] Two important bones in your leg meet at a joint in your knee.
+просачиваться ,давать течь [V] leak [] The pipe leaks from many places.
+врач, доктор [N] physician [] The physician said I would feel better if I took my medicine.
+жертвовать [V] sacrifice [] Her parents sacrificed a lot of money in order for her to go to college.
+непоколебимый [ADJ] stiff [] The bird was standing on the tree’s stiff branch.
+гладить рукой [V] stroke [] She stroked her cheek to see if there was something on it.
+трагический [ADJ] tragic [] The airplane crashed in a tragic accident.
+мелодия [N] tune [] The students played a familiar tune for the audience.
+
+End Lesson 42
 ############################################################
 Begin Lesson 1 Category Twilight. Phenomenon
 
