@@ -6,7 +6,7 @@ class EntitiesController < ApplicationController
     letter = word[0].upcase if word.present?
     @new_entity.letter = Letter.find_by(name: letter)
     @new_entity.part_of_speech = PartOfSpeech.find_by(name: params[:pos][:part_of_speech])
-    @new_entity.tag!(params[:tags])
+    @new_entity.tag!(params[:tags]) if params[:tags].present?
     if @new_entity.save
       respond_to do |format|
         format.html do

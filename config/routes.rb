@@ -6,7 +6,12 @@ Rails.application.routes.draw do
 
   # get 'category/:id' => 'categories#show', as: :category do
   resources :categories do
-    resources :lessons
+    resources :lessons do
+      member do
+        patch 'create_bundle'
+        patch 'continue_create_bundle'
+      end
+    end
     member do
       get 'translate_me/all', to: 'translate_me_game#all', as: :translate_me_all
       get 'translate_me/:lesson_number', to: 'translate_me_game#translate', as: :translate_me

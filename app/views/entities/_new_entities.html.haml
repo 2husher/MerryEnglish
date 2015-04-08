@@ -1,0 +1,19 @@
+= form_for @lesson, url: [@category, @lesson] do |f|
+  %table
+    %tr
+      %td= f.label :number
+      %td= f.text_field :number, value: @lesson.number
+  - for entity in @entities
+    = fields_for "lesson[entity_attributes][]", @lesson.entities.build do |fe|
+      %table
+        %tr
+          %td= fe.text_field :word, value: entity[:word]
+          %td= fe.text_field :part_of_speech, value: entity[:pos]
+        %tr
+          %td= fe.text_field :translation, value: entity[:translation]
+          %td= fe.text_area :sentence, value: entity[:sentence]
+        -# %tr
+        -#   %td= label_tag :tags
+        -#   %td= text_field_tag :tags
+  .actions
+    = f.submit 'Continue creating bundle'

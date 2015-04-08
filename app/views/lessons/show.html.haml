@@ -9,5 +9,6 @@
 
 - if user_signed_in? && (@lesson.entities.count < max_entities_per_lesson)
   = render 'entities/new'
+  = render 'entities/new_bundle'
 
 = render @entities

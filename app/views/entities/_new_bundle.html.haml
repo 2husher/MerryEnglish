@@ -1,0 +1,8 @@
+= form_for @lesson, url: { action: "create_bundle" } do |f|
+  %table
+    %tr
+      %td= f.label :bundle
+      %td= f.text_area :bundle, rows: 7
+
+  .actions
+    = f.submit 'Create Bundle'
