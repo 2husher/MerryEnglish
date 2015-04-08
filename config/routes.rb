@@ -22,6 +22,7 @@ Rails.application.routes.draw do
     post 'known/:word', to: 'dictionary#known', as: :known
   end
 
+  # hide /tags from unsignined users
   resources :tags
 
   delete 'entities/:entity_id/tags/:id', to: 'dictionary#remove_tag', as: :entity_tag

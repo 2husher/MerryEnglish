@@ -16,7 +16,7 @@ class TranslateMeGameController < ApplicationController
       tmp[0] = e.word
       tmp[1] = e.translation
       tmp[2] = e.sentence
-      tmp[3] = e.all_tags(current_user)
+      tmp[3] = e.all_tags(current_user) if current_user.present?
       @entities_array << tmp
     end
     # TODO: is @entities_array available in js?

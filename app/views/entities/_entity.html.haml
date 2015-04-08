@@ -3,4 +3,5 @@
   %span.part_of_speech= entity.part_of_speech.acronym
   %span.translation= entity.translation
   %span.sentence= entity.sentence
-  %span.tags= entity.all_tags(current_user)
+  - if user_signed_in?
+    %span.tags= entity.all_tags(current_user)
