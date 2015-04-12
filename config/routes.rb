@@ -28,7 +28,11 @@ Rails.application.routes.draw do
   end
 
   # hide /tags from unsignined users
-  resources :tags
+  resources :tags do
+    member do
+      get 'translate', to: 'tags#translate', as: :translate
+    end
+  end
 
   delete 'entities/:entity_id/tags/:id', to: 'dictionary#remove_tag', as: :entity_tag
 

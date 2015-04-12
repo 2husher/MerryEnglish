@@ -1,3 +1,6 @@
 - @tags.each do |tag|
   %div{class: "tag #{cycle('line_odd', 'line_even')}" }
     = link_to tag.name, tag_path(tag)
+    &lt;
+    = link_to "Translate #{tag.name} tag", translate_tag_path(tag)
+    &gt;
