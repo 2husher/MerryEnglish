@@ -26,6 +26,8 @@ gem 'unicorn-rails'
 
 gem 'rails4-autocomplete'
 
+gem 'better_errors', group: :development
+
 group :test do
   gem 'capybara', '~> 2.2.1'
   gem 'factory_girl_rails'

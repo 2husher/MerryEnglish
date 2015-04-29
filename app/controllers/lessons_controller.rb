@@ -3,6 +3,7 @@ class LessonsController < ApplicationController
     @category    = Category.find(params[:category_id])
     #@lessons  = @category.lessons.includes(:entities).all
     @all_lessons = @category.lessons.all
+    @lesson_number = @all_lessons.present? ? @all_lessons.maximum(:number) + 1 : 1
     @lessons     = @all_lessons.paginate(page: params[:page], per_page: max_entities_per_lesson)
     @new_lesson      = @category.lessons.new
   end
